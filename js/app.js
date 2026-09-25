@@ -41,6 +41,27 @@
 
   const GAME_COLOR_YELLOW = '#ffee61'; // ゲーム画面の開始スキル1~3の黄色
   const GAME_COLOR_BLUE = '#5fd2fe';   // ゲーム画面の開始スキル4~5のシアンブルー
+  /**
+   * 生徒名または画像ファイル名からWikiの確実な画像URLをHEX生成
+   */
+  function getWikiruIconUrl(imgFileOrName) {
+    if (!imgFileOrName) return '';
+    let fileName = String(imgFileOrName).trim();
+    if (!fileName.endsWith('.png') && !fileName.endsWith('.jpg') && !fileName.endsWith('.webp')) {
+      fileName = `${fileName}_icon.png`;
+    }
+    try {
+      const encoder = new TextEncoder();
+      const bytes = encoder.encode(fileName);
+      let hex = '';
+      for (let i = 0; i < bytes.length; i++) {
+        hex += bytes[i].toString(16).padStart(2, '0').toUpperCase();
+      }
+      return `https://bluearchive.wikiru.jp/attach2/696D67_${hex}`;
+    } catch (e) {
+      return '';
+    }
+  }
 
   // 制限時間別 スコアテーブル定義
   const SCORE_TABLES = {
@@ -153,13 +174,12 @@
   const dom = {};
 
   // 初期化
-  document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('DOMContentLoaded', async () => {
     initDomReferences();
-    loadStudentDatabase();
     loadSavedAppState(); // 保存データの復元
     bindEvents();
-    syncUIWithState();
-    updateStudentCountBadge();
+    await loadStudentDatabase(); // 生徒データを確実にロード
+    syncUIWithState();   // 生徒データが揃った後にスロット＆アイコンを描画
   });
 
   function initDomReferences() {
@@ -204,6 +224,7 @@
           state.students = json.students;
           state.lastUpdated = json.lastUpdated || state.lastUpdated;
           updateStudentCountBadge();
+          renderFormationForms(); // アイコンを再描画
         }
       }
     } catch (e) {
@@ -803,7 +824,14 @@
     slotEl.dataset.slotIndex = slotIdx;
 
     const matchedStudent = findStudentByName(unit.name);
-    const iconSrc = matchedStudent ? matchedStudent.iconUrl : (unit.iconUrl || '');
+    let iconSrc = '';
+    if (matchedStudent && matchedStudent.iconUrl && !matchedStudent.iconUrl.startsWith('data:')) {
+      iconSrc = matchedStudent.iconUrl;
+    } else if (unit.iconUrl && !unit.iconUrl.startsWith('data:')) {
+      iconSrc = unit.iconUrl;
+    } else if (unit.name) {
+      iconSrc = getWikiruIconUrl(matchedStudent ? matchedStudent.imgFile : unit.name);
+    }
 
     slotEl.innerHTML = `
       <div class="slot-header">
@@ -1060,10 +1088,18 @@
     return escapeHtml(text).replace(regex, '<span class="highlight">$1</span>');
   }
 
-  // 名前から生徒オブジェクトを検索
+  // 名前から生徒オブジェクトを検索 (カッコの全角半角ゆらぎ吸収)
   function findStudentByName(name) {
     if (!name) return null;
-    return state.students.find(s => s.name === name || s.alt === `${name}_icon.png`) || null;
+    const clean = String(name).trim();
+    const normalize = str => str.replace(/（/g, '(').replace(/）/g, ')').trim();
+    const targetNorm = normalize(clean);
+
+    return state.students.find(s => {
+      if (s.name === clean || s.alt === `${clean}_icon.png`) return true;
+      if (normalize(s.name) === targetNorm) return true;
+      return false;
+    }) || null;
   }
 
   /**
@@ -1388,7 +1424,14 @@
           for (let i = 0; i < 6; i++) {
             const unit = team.units[i];
             const student = findStudentByName(unit.name);
-            const iconSrc = student ? student.iconUrl : (unit.iconUrl || '');
+            let iconSrc = '';
+            if (student && student.iconUrl && !student.iconUrl.startsWith('data:')) {
+              iconSrc = student.iconUrl;
+            } else if (unit.iconUrl && !unit.iconUrl.startsWith('data:')) {
+              iconSrc = unit.iconUrl;
+            } else if (unit.name) {
+              iconSrc = getWikiruIconUrl(student ? student.imgFile : unit.name);
+            }
 
             html += `<td class="preview-unit-cell" style="background-color: transparent;">`;
             if (unit.name) {
@@ -1413,7 +1456,14 @@
           for (let i = 0; i < 6; i++) {
             const unit = team.units[i];
             const student = findStudentByName(unit.name);
-            const iconSrc = student ? student.iconUrl : (unit.iconUrl || '');
+            let iconSrc = '';
+            if (student && student.iconUrl && !student.iconUrl.startsWith('data:')) {
+              iconSrc = student.iconUrl;
+            } else if (unit.iconUrl && !unit.iconUrl.startsWith('data:')) {
+              iconSrc = unit.iconUrl;
+            } else if (unit.name) {
+              iconSrc = getWikiruIconUrl(student ? student.imgFile : unit.name);
+            }
             const order = unit.startSkillOrder || 0;
             const isYellow = order >= 1 && order <= 3;
             const isBlue = order >= 4 && order <= 5;
