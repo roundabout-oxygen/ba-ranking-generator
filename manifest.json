@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "ブルーアーカイブWiki ランキング編成ジェネレーター",
+  "version": "1.0.0",
+  "description": "ブルーアーカイブWikiの「ランキング上位で使用された生徒」の編集用テキスト（総力戦・大決戦対応）を簡単に自動生成するツールです。",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_title": "ブルアカ ランキング編成生成ツールを開く",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": []
+}

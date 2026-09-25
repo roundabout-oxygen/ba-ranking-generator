@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ブルーアーカイブ Wiki ランキング編成生成ツール</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>">
+</head>
+<body>
+
+  <!-- アプリヘッダー -->
+  <header class="app-header">
+    <div class="header-inner">
+      <div class="brand-title">
+        <div class="brand-icon">📋</div>
+        <div class="brand-text">
+          <h1>ブルーアーカイブ Wiki ランキング編成ジェネレーター</h1>
+          <p>「ランキング上位で使用された生徒」のWiki編集画面用テキストを自動生成・コピー</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <div class="meta-badges">
+          <span class="auto-update-badge">🤖 <strong>月1回自動更新</strong></span>
+          <span>登録生徒: <strong id="student-count-badge">276 名</strong></span>
+          <span>データ更新: <strong id="last-updated-badge">最新データ</strong></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- メインコンテンツ -->
+  <main class="main-container">
+
+    <!-- ステップ1: モード・属性選択 -->
+    <section class="control-card">
+      <h2 class="card-heading">
+        <span class="step-num">1</span>
+        バトル種別と装甲属性の選択
+      </h2>
+
+      <!-- 制限時間（ボス別）選択ボタン -->
+      <div class="time-limit-selector-wrap">
+        <label class="field-label time-limit-header-label">
+          ⏱️ 1部隊あたりの制限時間 (戦闘時間逆算用):
+        </label>
+        <div class="time-limit-btn-group">
+          <button type="button" class="btn-time-limit active" data-time="4min" id="btn-time-4min">
+            <span class="time-btn-title">他 (4分)</span>
+            <span class="time-btn-sub">ケセド・ホド・シロクロ・ペロロジラ・ゴズ・ヒエロ・グレゴリオ・ホバー・クロカゲ・ゲブラ</span>
+          </button>
+          <button type="button" class="btn-time-limit" data-time="3min" id="btn-time-3min">
+            <span class="time-btn-title">ビナー・カイテン (3分)</span>
+            <span class="time-btn-sub">ビナー / カイテンジャー</span>
+          </button>
+          <button type="button" class="btn-time-limit" data-time="4min30s" id="btn-time-4min30s">
+            <span class="time-btn-title">イェソド (4分30秒)</span>
+            <span class="time-btn-sub">イェソド</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- モード切替タブ -->
+      <div class="mode-toggle-group">
+        <button type="button" id="btn-mode-total" class="mode-tab-btn active">
+          <span class="mode-title">⚔️ 総力戦 (1属性)</span>
+          <span class="mode-desc">1種類の属性ですぐに編成入力</span>
+        </button>
+        <button type="button" id="btn-mode-grand" class="mode-tab-btn">
+          <span class="mode-title">🎯 大決戦 (3属性)</span>
+          <span class="mode-desc">4属性から3つを選択し、選択順で編成を入力</span>
+        </button>
+      </div>
+
+      <!-- 総力戦の属性選択 (初期表示) -->
+      <div id="total-armor-container" class="armor-select-block">
+        <label class="field-label" style="display: block; margin-bottom: 8px;">
+          <strong>ボスの防御属性を選択してください:</strong>
+        </label>
+        <div id="total-armor-buttons" class="armor-chips-row">
+          <!-- JSで描画 -->
+        </div>
+      </div>
+
+      <!-- 大決戦の属性選択 (切り替え時表示) -->
+      <div id="grand-armor-container" class="armor-select-block" style="display: none;">
+        <label class="field-label" style="display: block; margin-bottom: 8px;">
+          <strong>大決戦の対象属性を3つ選択してください:</strong> （クリックした順番で上から表示・出力されます）
+        </label>
+        <div id="armor-buttons" class="armor-chips-row">
+          <!-- JSで描画 -->
+        </div>
+
+        <div class="armor-order-container">
+          <div class="armor-order-title">▼ 選択された順序（Wiki出力順）:</div>
+          <div id="armor-order-list" class="armor-order-list">
+            <!-- JSで描画 -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ステップ2: 編成入力エリア -->
+    <section>
+      <div class="card-heading" style="background: #fff; padding: 14px 20px; border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); margin-bottom: 16px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span class="step-num">2</span>
+          <span>編成入力（生徒名ひらがな検索・スコア・部隊数）</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <span id="save-status-badge" class="save-status-badge" title="ブラウザを更新(F5)しても入力内容は自動保持されます">💾 自動保存有効</span>
+          <button type="button" id="btn-reset-formation" class="btn-reset-all" title="入力中の編成・スコアデータを初期状態に戻します">
+            🔄 入力をリセット
+          </button>
+        </div>
+      </div>
+
+      <!-- 装甲ごとの編成入力セクション -->
+      <div id="formation-sections">
+        <!-- JSで動的生成 -->
+      </div>
+    </section>
+
+    <!-- 注記・説明文の編集エリア -->
+    <section class="notes-setting-card" style="background: #fff; padding: 18px 24px; border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); margin-bottom: 24px;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; flex-wrap: wrap; gap: 8px;">
+        <h3 style="font-size: 15px; font-weight: bold; color: var(--text-main); display: flex; align-items: center; gap: 6px; margin: 0;">
+          <span>📝</span> Wiki見出し・注釈文の編集
+        </h3>
+        <button type="button" id="btn-reset-notes" class="btn-reset-notes" style="background: transparent; border: 1px solid var(--border-color); font-size: 11px; padding: 3px 8px; border-radius: 4px; cursor: pointer; color: var(--text-muted);">
+          ↺ 文言を初期状態に戻す
+        </button>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+        <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+          <label style="font-size: 12px; font-weight: bold; color: var(--text-muted); min-width: 90px;">見出しテキスト:</label>
+          <input type="text" id="input-heading-title" style="flex: 1; min-width: 200px; padding: 6px 10px; border: 1px solid var(--border-color); border-radius: var(--radius-sm); font-size: 13px;" value="ランキング上位で使用された生徒" />
+          <span style="font-size: 12px; color: var(--text-muted); font-family: monospace;">[#<input type="text" id="input-heading-anchor" style="width: 80px; padding: 4px 6px; border: 1px solid var(--border-color); border-radius: var(--radius-sm); font-size: 12px; font-family: monospace;" value="v40a9c46" />]</span>
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <label style="font-size: 12px; font-weight: bold; color: var(--text-muted);">
+            注釈・説明文（1行に1項目、Wiki出力時に自動で先頭に「-」が付きます）:
+          </label>
+          <textarea id="input-custom-notes" rows="2" style="width: 100%; padding: 10px; border: 1px solid var(--border-color); border-radius: var(--radius-sm); font-size: 13px; line-height: 1.6; resize: vertical;" placeholder="ランキング1位にて使用された生徒を記す。"></textarea>
+          <span style="font-size: 11px; color: var(--text-muted);">※空行にするとその注釈行は出力されません。文章の追加・削除・編集が自由に行えます。</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ステップ3: Wikiテキスト生成＆コピー -->
+    <section class="output-card">
+      <h2 class="card-heading">
+        <span class="step-num">3</span>
+        Wiki編集用テキストの生成 & クリップボードコピー
+      </h2>
+
+      <div class="generate-action-bar">
+        <button type="button" id="btn-generate" class="btn-generate-main">
+          <span>📋</span> Wikiテキストを生成 & コピー
+        </button>
+
+        <div class="generate-options">
+          <label style="display: flex; align-items: center; gap: 8px; font-weight: 600;">
+            <span>開始スキルのWiki出力形式:</span>
+            <select id="select-skill-format" class="select-skill-format">
+              <option value="skill_row" selected>★ アイコンの上に番号行を配置（□囲みバッジ＋背景色）★推奨</option>
+              <option value="bgcolor">① セル背景色分けのみ (1~3:黄色, 4~5:水色) [ズレなし]</option>
+              <option value="badge_top">② アイコン上部に番号 【①】【②】... (1行形式)</option>
+              <option value="badge_bottom">③ アイコン下部に番号 ①②... (1行形式)</option>
+              <option value="both">④ 背景色 ＋ 番号 (1行形式)</option>
+              <option value="none">⑤ 開始スキル装飾なし (通常リンクのみ)</option>
+            </select>
+          </label>
+        </div>
+      </div>
+
+      <!-- タブ切り替え（コード / Wikiプレビュー） -->
+      <div class="output-tabs">
+        <button type="button" id="tab-code" class="tab-btn active">📝 Wiki編集用コード</button>
+        <button type="button" id="tab-preview" class="tab-btn">👁️ Wiki風テーブルプレビュー</button>
+      </div>
+
+      <!-- コード表示ペイン -->
+      <div id="pane-code">
+        <textarea id="output-wiki" class="output-textarea" placeholder="「Wikiテキストを生成」ボタンを押すとここにフォーマットが出力されます..." readonly></textarea>
+        <div class="output-actions-row">
+          <button type="button" id="btn-copy-bottom" class="btn-copy">
+            <span>📄</span> テキストをクリップボードに再コピー
+          </button>
+        </div>
+      </div>
+
+      <!-- プレビュー表示ペイン -->
+      <div id="pane-preview" style="display: none;">
+        <div id="preview-container">
+          <!-- JSで描画 -->
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- トースト通知 -->
+  <div id="toast" class="toast-notification"></div>
+
+  <!-- スクリプト読み込み -->
+  <script src="js/students-data.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/crawler.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
