@@ -61,7 +61,6 @@ class CharaTableParser(HTMLParser):
                 })
             elif self.in_td and tag == 'img':
                 if self.current_tr_tds:
-                    # Capture data-src, data-original, or src
                     src_val = attr_dict.get('data-src') or attr_dict.get('data-original') or attr_dict.get('src') or ''
                     self.current_tr_tds[-1]['images'].append({
                         'src': src_val,
@@ -119,7 +118,7 @@ def parse_students(html: str):
     parser.feed(html)
 
     students = []
-    seen = set()
+    seen_keys = set()
 
     for row in parser.rows_data:
         if len(row) < 2:
@@ -132,12 +131,13 @@ def parse_students(html: str):
             img_td = row[0]
             name_td = row[1]
 
-        # Extract name
+        # Extract raw name
         name = name_td['text'].strip().replace('\r', '').replace('\n', '').replace('\t', '').replace(' ', '')
+        link_name = name
         if name_td['links']:
             link_title = name_td['links'][0].get('title', '').strip()
             if link_title:
-                name = link_title.split(' ')[0]
+                link_name = link_title.split(' ')[0]
 
         if not name or name in ['名前', 'アイコン', 'キャラクター名']:
             continue
@@ -166,12 +166,32 @@ def parse_students(html: str):
                 if match:
                     img_file = match.group(1)
 
-        # If icon_url is empty, compute from hex
-        if not icon_url:
-            hex_str = img_file.encode('utf-8').hex().upper()
-            icon_url = f"https://bluearchive.wikiru.jp/attach2/696D67_{hex_str}"
-
-        reading = extract_reading(name)
+        # Distinguish special modes/forms
+        # 1. Shuren (Swimsuit)
+        if 'シュエリン' in alt or 'シュエリン' in img_file:
+            name = "シュエリン（水着）"
+            img_file = "シュエリン（水着）_icon.png"
+            link_name = "シュン（水着）"
+            reading = "しゅえりんみずぎ"
+        # 2. Hoshino Combat (Style 1 / Style 2)
+        elif 'ホシノ（臨戦）スタイル1' in img_file or 'ホシノ（臨戦）スタイル1' in alt or 'ホシノ（臨戦）攻撃' in alt or 'ホシノ（臨戦）1' in img_file:
+            name = "ホシノ（臨戦）１"
+            img_file = "ホシノ（臨戦）スタイル1_icon.png"
+            link_name = "ホシノ（臨戦）"
+            reading = "ほしのりんせん1"
+        elif 'ホシノ（臨戦）スタイル2' in img_file or 'ホシノ（臨戦）スタイル2' in alt or 'ホシノ（臨戦）防御' in alt or 'ホシノ（臨戦）2' in img_file:
+            name = "ホシノ（臨戦）２"
+            img_file = "ホシノ（臨戦）スタイル2_icon.png"
+            link_name = "ホシノ（臨戦）"
+            reading = "ほしのりんせん2"
+        elif name == "ホシノ（臨戦）":
+            # If not distinguished yet
+            name = "ホシノ（臨戦）１"
+            img_file = "ホシノ（臨戦）スタイル1_icon.png"
+            link_name = "ホシノ（臨戦）"
+            reading = "ほしのりんせん1"
+        else:
+            reading = extract_reading(name)
 
         student_obj = {
             "name": name,
@@ -179,25 +199,43 @@ def parse_students(html: str):
             "iconUrl": icon_url,
             "alt": alt,
             "reading": reading,
-            "wikiLink": name
+            "wikiLink": link_name
         }
 
-        if name not in seen:
-            seen.add(name)
+        unique_key = f"{name}_{img_file}"
+        if unique_key not in seen_keys:
+            seen_keys.add(unique_key)
             students.append(student_obj)
 
-    # Ensure Shun (Swimsuit) and Shuren (Swimsuit) distinction
-    has_shun_swimsuit = any(s['name'] == 'シュン（水着）' for s in students)
-    has_shuren_swimsuit = any(s['name'] == 'シュエリン（水着）' for s in students)
+    # Make sure both Hoshino Combat 1 and 2 exist
+    has_hoshino1 = any(s['name'] == 'ホシノ（臨戦）１' for s in students)
+    has_hoshino2 = any(s['name'] == 'ホシノ（臨戦）２' for s in students)
+    if not has_hoshino1:
+        students.append({
+            "name": "ホシノ（臨戦）１",
+            "imgFile": "ホシノ（臨戦）スタイル1_icon.png",
+            "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839BE382B7E3838EEFBC88E887A8E688A6EFBC89E382B9E382BFE382A4E383AB315F69636F6E2E706E67.png",
+            "alt": "ホシノ（臨戦）スタイル1_icon.png",
+            "reading": "ほしのりんせん1",
+            "wikiLink": "ホシノ（臨戦）"
+        })
+    if not has_hoshino2:
+        students.append({
+            "name": "ホシノ（臨戦）２",
+            "imgFile": "ホシノ（臨戦）スタイル2_icon.png",
+            "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839BE382B7E3838EEFBC88E887A8E688A6EFBC89E382B9E382BFE382A4E383AB325F69636F6E2E706E67.png",
+            "alt": "ホシノ（臨戦）スタイル2_icon.png",
+            "reading": "ほしのりんせん2",
+            "wikiLink": "ホシノ（臨戦）"
+        })
 
-    if has_shun_swimsuit and not has_shuren_swimsuit:
-        shun_obj = next((s for s in students if s['name'] == 'シュン（水着）'), None)
-        shuren_img = "シュエリン（水着）_icon.png"
-        shuren_hex = shuren_img.encode('utf-8').hex().upper()
+    # Make sure Shuren (Swimsuit) exists
+    has_shuren = any(s['name'] == 'シュエリン（水着）' for s in students)
+    if not has_shuren:
         students.append({
             "name": "シュエリン（水着）",
-            "imgFile": shuren_img,
-            "iconUrl": f"https://bluearchive.wikiru.jp/attach2/696D67_{shuren_hex}",
+            "imgFile": "シュエリン（水着）_icon.png",
+            "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B7E383A5E382A8E383AAE383B3EFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
             "alt": "シュエリン（水着）_icon.png",
             "reading": "しゅえりんみずぎ",
             "wikiLink": "シュン（水着）"

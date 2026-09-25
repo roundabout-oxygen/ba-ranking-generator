@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-25 12:32:52 (JST)",
-  "count": 276,
+  "lastUpdated": "2026-09-25 16:09:37 (JST)",
+  "count": 277,
   "students": [
     {
       "name": "アイリ",
@@ -838,7 +838,7 @@
     {
       "name": "シュエリン（水着）",
       "imgFile": "シュエリン（水着）_icon.png",
-      "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B7E383A5E382A8E383AAE383B3EFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67",
+      "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B7E383A5E382A8E383AAE383B3EFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
       "alt": "シュエリン（水着）_icon.png",
       "reading": "しゅえりんみずぎ",
       "wikiLink": "シュン（水着）"
@@ -1668,20 +1668,28 @@
       "wikiLink": "ホシノ"
     },
     {
+      "name": "ホシノ（臨戦）１",
+      "imgFile": "ホシノ（臨戦）スタイル1_icon.png",
+      "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839BE382B7E3838EEFBC88E887A8E688A6EFBC89E382B9E382BFE382A4E383AB325F69636F6E2E706E67.png",
+      "alt": "ホシノ（臨戦）攻撃型",
+      "reading": "ほしのりんせん1",
+      "wikiLink": "ホシノ（臨戦）"
+    },
+    {
+      "name": "ホシノ（臨戦）２",
+      "imgFile": "ホシノ（臨戦）スタイル2_icon.png",
+      "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839BE382B7E3838EEFBC88E887A8E688A6EFBC89E382B9E382BFE382A4E383AB315F69636F6E2E706E67.png",
+      "alt": "ホシノ（臨戦）防御型",
+      "reading": "ほしのりんせん2",
+      "wikiLink": "ホシノ（臨戦）"
+    },
+    {
       "name": "ホシノ（水着）",
       "imgFile": "ホシノ（水着）_icon.png",
       "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839BE382B7E3838EEFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
       "alt": "ホシノ（水着）_icon.png",
       "reading": "ほしの（水着）",
       "wikiLink": "ホシノ（水着）"
-    },
-    {
-      "name": "ホシノ（臨戦）",
-      "imgFile": "ホシノ（臨戦）_icon.png",
-      "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839BE382B7E3838EEFBC88E887A8E688A6EFBC89E382B9E382BFE382A4E383AB315F69636F6E2E706E67.png",
-      "alt": "ホシノ（臨戦）防御型",
-      "reading": "ほしの（臨戦）",
-      "wikiLink": "ホシノ（臨戦）"
     },
     {
       "name": "マキ",

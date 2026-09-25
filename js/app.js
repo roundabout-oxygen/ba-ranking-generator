@@ -1088,11 +1088,14 @@
     return escapeHtml(text).replace(regex, '<span class="highlight">$1</span>');
   }
 
-  // 名前から生徒オブジェクトを検索 (カッコの全角半角ゆらぎ吸収)
+  // 名前から生徒オブジェクトを検索 (カッコの全角半角ゆらぎ & 形態別名吸収)
   function findStudentByName(name) {
     if (!name) return null;
-    const clean = String(name).trim();
-    const normalize = str => str.replace(/（/g, '(').replace(/）/g, ')').trim();
+    let clean = String(name).trim();
+    if (clean === 'ホシノ（臨戦）' || clean === 'ホシノ(臨戦)') {
+      clean = 'ホシノ（臨戦）１';
+    }
+    const normalize = str => str.replace(/（/g, '(').replace(/）/g, ')').replace(/1/g, '１').replace(/2/g, '２').trim();
     const targetNorm = normalize(clean);
 
     return state.students.find(s => {
