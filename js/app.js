@@ -832,7 +832,7 @@
         ${iconSrc ? `
           <div class="icon-img-wrap">
             <div class="thumb-container">
-              <img src="${iconSrc}" alt="${escapeHtml(unit.name)}" class="student-thumb" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\\'http://www.w3.org/2000/svg\\' width=\\'80\\' height=\\'80\\'><rect width=\\'100%\\' height=\\'100%\\' fill=\\'%23e0e0e0\\'/><text x=\\'50%\\' y=\\'50%\\' dominant-baseline=\\'middle\\' text-anchor=\\'middle\\' fill=\\'%23666\\' font-size=\\'12\\'>No Image</text></svg>'" />
+              <img src="${iconSrc}" alt="${escapeHtml(unit.name)}" class="student-thumb" referrerpolicy="no-referrer" loading="lazy" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\\'http://www.w3.org/2000/svg\\' width=\\'80\\' height=\\'80\\'><rect width=\\'100%\\' height=\\'100%\\' fill=\\'%23e0e0e0\\'/><text x=\\'50%\\' y=\\'50%\\' dominant-baseline=\\'middle\\' text-anchor=\\'middle\\' fill=\\'%23666\\' font-size=\\'12\\'>No Image</text></svg>'" />
               ${order > 0 ? `
                 <div class="skill-badge-overlay ${isYellow ? 'badge-yellow' : 'badge-blue'}">
                   ${order}
@@ -991,7 +991,7 @@
       item.className = `suggestion-item ${idx === 0 ? 'selected' : ''}`;
       item.dataset.index = idx;
       item.innerHTML = `
-        <img src="${s.iconUrl}" class="sug-icon" onerror="this.style.display='none'" />
+        <img src="${s.iconUrl}" class="sug-icon" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none'" />
         <div class="sug-text">
           <div class="sug-name">${highlightMatch(s.name, query)}</div>
           <div class="sug-hira">${s.hiraName || ''}</div>
@@ -1395,7 +1395,7 @@
               html += `
                 <div class="preview-chara-box">
                   <div class="thumb-container">
-                    ${iconSrc ? `<img src="${iconSrc}" class="preview-thumb" alt="${escapeHtml(unit.name)}" />` : ''}
+                    ${iconSrc ? `<img src="${iconSrc}" class="preview-thumb" alt="${escapeHtml(unit.name)}" referrerpolicy="no-referrer" loading="lazy" />` : ''}
                   </div>
                   <span class="preview-chara-name">${escapeHtml(unit.name)}</span>
                 </div>
@@ -1429,7 +1429,7 @@
               html += `
                 <div class="preview-chara-box">
                   <div class="thumb-container">
-                    ${iconSrc ? `<img src="${iconSrc}" class="preview-thumb" alt="${escapeHtml(unit.name)}" />` : ''}
+                    ${iconSrc ? `<img src="${iconSrc}" class="preview-thumb" alt="${escapeHtml(unit.name)}" referrerpolicy="no-referrer" loading="lazy" />` : ''}
                     ${order > 0 ? `
                       <div class="skill-badge-overlay ${isYellow ? 'badge-yellow' : 'badge-blue'}">
                         ${order}

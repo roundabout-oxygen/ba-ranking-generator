@@ -61,8 +61,10 @@ class CharaTableParser(HTMLParser):
                 })
             elif self.in_td and tag == 'img':
                 if self.current_tr_tds:
+                    # Capture data-src, data-original, or src
+                    src_val = attr_dict.get('data-src') or attr_dict.get('data-original') or attr_dict.get('src') or ''
                     self.current_tr_tds[-1]['images'].append({
-                        'src': attr_dict.get('src', ''),
+                        'src': src_val,
                         'alt': attr_dict.get('alt', ''),
                         'title': attr_dict.get('title', '')
                     })
@@ -152,7 +154,9 @@ def parse_students(html: str):
                 icon_url = f"https:{src}"
             elif src.startswith('/'):
                 icon_url = f"https://bluearchive.wikiru.jp{src}"
-            else:
+            elif src.startswith('attach2/'):
+                icon_url = f"https://bluearchive.wikiru.jp/{src}"
+            elif src.startswith('http'):
                 icon_url = src
 
             alt_val = img_info.get('alt', '')
@@ -162,9 +166,10 @@ def parse_students(html: str):
                 if match:
                     img_file = match.group(1)
 
+        # If icon_url is empty, compute from hex
         if not icon_url:
-            encoded_img = urllib.parse.quote(img_file)
-            icon_url = f"https://bluearchive.wikiru.jp/image/{encoded_img}"
+            hex_str = img_file.encode('utf-8').hex().upper()
+            icon_url = f"https://bluearchive.wikiru.jp/attach2/696D67_{hex_str}"
 
         reading = extract_reading(name)
 
@@ -186,10 +191,13 @@ def parse_students(html: str):
     has_shuren_swimsuit = any(s['name'] == 'シュエリン（水着）' for s in students)
 
     if has_shun_swimsuit and not has_shuren_swimsuit:
+        shun_obj = next((s for s in students if s['name'] == 'シュン（水着）'), None)
+        shuren_img = "シュエリン（水着）_icon.png"
+        shuren_hex = shuren_img.encode('utf-8').hex().upper()
         students.append({
             "name": "シュエリン（水着）",
-            "imgFile": "シュエリン（水着）_icon.png",
-            "iconUrl": "https://bluearchive.wikiru.jp/image/%E3%82%B7%E3%83%A5%E3%82%A8%E3%83%AA%E3%83%B3%EF%BC%88%E6%B0%B4%E7%9D%80%EF%BC%89_icon.png",
+            "imgFile": shuren_img,
+            "iconUrl": f"https://bluearchive.wikiru.jp/attach2/696D67_{shuren_hex}",
             "alt": "シュエリン（水着）_icon.png",
             "reading": "しゅえりんみずぎ",
             "wikiLink": "シュン（水着）"
@@ -208,7 +216,6 @@ def main():
     students = parse_students(html)
     print(f"Successfully parsed {len(students)} students from Wiki.")
 
-    # Save to data/students-data.json
     script_dir = os.path.dirname(os.path.abspath(__file__))
     project_root = os.path.dirname(script_dir)
     target_data_dir = os.path.join(project_root, 'data')
@@ -229,7 +236,6 @@ def main():
         json.dump(json_payload, f, ensure_ascii=False, indent=2)
     print(f"Saved: {json_path}")
 
-    # Also update js/students-data.js
     js_dir = os.path.join(project_root, 'js')
     os.makedirs(js_dir, exist_ok=True)
     js_path = os.path.join(js_dir, 'students-data.js')

@@ -1,6 +1,6 @@
 /**
  * ブルーアーカイブ 全生徒マスターデータ
- * 自動生成日時: 2026-09-25 08:47:08 (JST)
+ * 自動生成日時: 2026-09-25 12:32:52 (JST)
  * 登録生徒数: 276 名
  */
 
@@ -8,7 +8,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "アイリ",
     "imgFile": "アイリ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A2E382A4E383AA5F69636F6E2E706E67.png",
     "alt": "アイリ_icon.png",
     "reading": "あいり",
     "wikiLink": "アイリ"
@@ -16,7 +16,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "アイリ（バンド）",
     "imgFile": "アイリ（バンド）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A2E382A4E383AAEFBC88E38390E383B3E38389EFBC895F69636F6E2E706E67.png",
     "alt": "アイリ（バンド）_icon.png",
     "reading": "あいり（ばんど）",
     "wikiLink": "アイリ（バンド）"
@@ -24,7 +24,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "アオバ",
     "imgFile": "アオバ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A2E382AAE383905F69636F6E2E706E67.png",
     "alt": "アオバ_icon.png",
     "reading": "あおば",
     "wikiLink": "アオバ"
@@ -32,7 +32,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "アカネ",
     "imgFile": "アカネ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A2E382ABE3838D5F69636F6E2E706E67.png",
     "alt": "アカネ_icon.png",
     "reading": "あかね",
     "wikiLink": "アカネ"
@@ -40,7 +40,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "アカネ（バニーガール）",
     "imgFile": "アカネ（バニーガール）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A2E382ABE3838DEFBC88E38390E3838BE383BCE382ACE383BCE383ABEFBC895F69636F6E2E706E67.png",
     "alt": "アカネ（バニーガール）_icon.png",
     "reading": "あかね（ばにーがーる）",
     "wikiLink": "アカネ（バニーガール）"
@@ -48,7 +48,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "アカネ（制服）",
     "imgFile": "アカネ（制服）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A2E382ABE3838DEFBC88E588B6E69C8DEFBC895F69636F6E2E706E67.png",
     "alt": "アカネ（制服）_icon.png",
     "reading": "あかね（制服）",
     "wikiLink": "アカネ（制服）"
@@ -56,7 +56,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "アカリ",
     "imgFile": "アカリ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A2E382ABE383AA5F69636F6E2E706E67.png",
     "alt": "アカリ_icon.png",
     "reading": "あかり",
     "wikiLink": "アカリ"
@@ -64,7 +64,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "アカリ（正月）",
     "imgFile": "アカリ（正月）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A2E382ABE383AAEFBC88E6ADA3E69C88EFBC895F69636F6E2E706E67.png",
     "alt": "アカリ（正月）_icon.png",
     "reading": "あかり（正月）",
     "wikiLink": "アカリ（正月）"
@@ -72,7 +72,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "アコ",
     "imgFile": "アコ_仮icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A2E382B35FE4BBAE69636F6E2E706E67.png",
     "alt": "アコ_仮icon.png",
     "reading": "あこ",
     "wikiLink": "アコ"
@@ -80,7 +80,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "アコ（ドレス）",
     "imgFile": "アコ（ドレス）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A2E382B3EFBC88E38389E383ACE382B9EFBC895F69636F6E2E706E67.png",
     "alt": "アコ（ドレス）_icon.png",
     "reading": "あこ（どれす）",
     "wikiLink": "アコ（ドレス）"
@@ -88,7 +88,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "アスナ",
     "imgFile": "アスナ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A2E382B9E3838A5F69636F6E2E706E67.png",
     "alt": "アスナ_icon.png",
     "reading": "あすな",
     "wikiLink": "アスナ"
@@ -96,7 +96,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "アスナ（バニーガール）",
     "imgFile": "アスナ（バニーガール）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A2E382B9E3838AEFBC88E38390E3838BE383BCE382ACE383BCE383ABEFBC895F69636F6E2E706E67.png",
     "alt": "アスナ（バニーガール）_icon.png",
     "reading": "あすな（ばにーがーる）",
     "wikiLink": "アスナ（バニーガール）"
@@ -104,7 +104,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "アスナ（制服）",
     "imgFile": "アスナ（制服）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A2E382B9E3838AEFBC88E588B6E69C8DEFBC895F69636F6E2E706E67.png",
     "alt": "アスナ（制服）_icon.png",
     "reading": "あすな（制服）",
     "wikiLink": "アスナ（制服）"
@@ -112,7 +112,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "アズサ",
     "imgFile": "アズサ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A2E382BAE382B55F69636F6E2E706E67.png",
     "alt": "アズサ_icon.png",
     "reading": "あずさ",
     "wikiLink": "アズサ"
@@ -120,7 +120,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "アズサ（水着）",
     "imgFile": "アズサ_水着_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A2E382BAE382B55FE6B0B4E79D805F69636F6E2E706E67.png",
     "alt": "アズサ_水着_icon.png",
     "reading": "あずさ（水着）",
     "wikiLink": "アズサ（水着）"
@@ -128,7 +128,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "アツコ",
     "imgFile": "アツコ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A2E38384E382B35F69636F6E2E706E67.png",
     "alt": "アツコ_icon.png",
     "reading": "あつこ",
     "wikiLink": "アツコ"
@@ -136,7 +136,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "アツコ（水着）",
     "imgFile": "アツコ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A2E38384E382B3EFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "アツコ（水着）_icon.png",
     "reading": "あつこ（水着）",
     "wikiLink": "アツコ（水着）"
@@ -144,7 +144,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "アヤネ",
     "imgFile": "アヤネ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A2E383A4E3838D5F69636F6E2E706E67.png",
     "alt": "アヤネ_icon.png",
     "reading": "あやね",
     "wikiLink": "アヤネ"
@@ -152,7 +152,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "アヤネ（水着）",
     "imgFile": "アヤネ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A2E383A4E3838DEFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "アヤネ（水着）_icon.png",
     "reading": "あやね（水着）",
     "wikiLink": "アヤネ（水着）"
@@ -160,7 +160,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "アリス",
     "imgFile": "アリス_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A2E383AAE382B95F69636F6E2E706E67.png",
     "alt": "アリス_icon.png",
     "reading": "ありす",
     "wikiLink": "アリス"
@@ -168,7 +168,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "アリス（メイド）",
     "imgFile": "アリス（メイド）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A2E383AAE382B9EFBC88E383A1E382A4E38389EFBC895F69636F6E2E706E67.png",
     "alt": "アリス（メイド）_icon.png",
     "reading": "ありす（めいど）",
     "wikiLink": "アリス（メイド）"
@@ -176,7 +176,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "アリス（臨戦）",
     "imgFile": "アリス（臨戦）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A2E383AAE382B9EFBC88E887A8E688A6EFBC895F69636F6E2E706E67.png",
     "alt": "アリス（臨戦）_icon.png",
     "reading": "ありす（臨戦）",
     "wikiLink": "アリス（臨戦）"
@@ -184,7 +184,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "アル",
     "imgFile": "アル_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A2E383AB5F69636F6E2E706E67.png",
     "alt": "アル_icon.png",
     "reading": "ある",
     "wikiLink": "アル"
@@ -192,7 +192,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "アル（ドレス）",
     "imgFile": "アル（ドレス）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A2E383ABEFBC88E38389E383ACE382B9EFBC895F69636F6E2E706E67.png",
     "alt": "アル（ドレス）_icon.png",
     "reading": "ある（どれす）",
     "wikiLink": "アル（ドレス）"
@@ -200,7 +200,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "アル（正月）",
     "imgFile": "アル（正月）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A2E383ABEFBC88E6ADA3E69C88EFBC895F69636F6E2E706E67.png",
     "alt": "アル（正月）_icon.png",
     "reading": "ある（正月）",
     "wikiLink": "アル（正月）"
@@ -208,7 +208,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "アンナ",
     "imgFile": "アンナ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A2E383B3E3838A5F69636F6E2E706E67.png",
     "alt": "アンナ_icon.png",
     "reading": "あんな",
     "wikiLink": "アンナ"
@@ -216,7 +216,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "イオリ",
     "imgFile": "イオリ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A4E382AAE383AA5F69636F6E2E706E67.png",
     "alt": "イオリ_icon.png",
     "reading": "いおり",
     "wikiLink": "イオリ"
@@ -224,7 +224,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "イオリ（水着）",
     "imgFile": "イオリ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A4E382AAE383AAEFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "イオリ（水着）_icon.png",
     "reading": "いおり（水着）",
     "wikiLink": "イオリ（水着）"
@@ -232,7 +232,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "イズナ",
     "imgFile": "イズナ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A4E382BAE3838A5F69636F6E2E706E67.png",
     "alt": "イズナ_icon.png",
     "reading": "いずな",
     "wikiLink": "イズナ"
@@ -240,7 +240,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "イズナ（水着）",
     "imgFile": "イズナ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A4E382BAE3838AEFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "イズナ（水着）_icon.png",
     "reading": "いずな（水着）",
     "wikiLink": "イズナ（水着）"
@@ -248,7 +248,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "イズミ",
     "imgFile": "イズミ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A4E382BAE3839F5F69636F6E2E706E67.png",
     "alt": "イズミ_icon.png",
     "reading": "いずみ",
     "wikiLink": "イズミ"
@@ -256,7 +256,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "イズミ（正月）",
     "imgFile": "イズミ（正月）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A4E382BAE3839FEFBC88E6ADA3E69C88EFBC895F69636F6E2E706E67.png",
     "alt": "イズミ（正月）_icon.png",
     "reading": "いずみ（正月）",
     "wikiLink": "イズミ（正月）"
@@ -264,7 +264,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "イズミ（水着）",
     "imgFile": "イズミ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A4E382BAE3839FEFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "イズミ（水着）_icon.png",
     "reading": "いずみ（水着）",
     "wikiLink": "イズミ（水着）"
@@ -272,7 +272,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "イチカ",
     "imgFile": "イチカ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A4E38381E382AB5F69636F6E2E706E67.png",
     "alt": "イチカ_icon.png",
     "reading": "いちか",
     "wikiLink": "イチカ"
@@ -280,7 +280,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "イチカ（水着）",
     "imgFile": "イチカ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A4E38381E382ABEFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "イチカ（水着）_icon.png",
     "reading": "いちか（水着）",
     "wikiLink": "イチカ（水着）"
@@ -288,7 +288,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "イブキ",
     "imgFile": "イブキ_icon2.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A4E38396E382AD5F69636F6E322E706E67.png",
     "alt": "イブキ_icon2.png",
     "reading": "いぶき",
     "wikiLink": "イブキ"
@@ -296,7 +296,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "イブキ（水着）",
     "imgFile": "イブキ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A4E38396E382ADEFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "イブキ（水着）_icon.png",
     "reading": "いぶき（水着）",
     "wikiLink": "イブキ（水着）"
@@ -304,7 +304,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "イロハ",
     "imgFile": "イロハ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A4E383ADE3838F5F69636F6E2E706E67.png",
     "alt": "イロハ_icon.png",
     "reading": "いろは",
     "wikiLink": "イロハ"
@@ -312,7 +312,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "イロハ（水着）",
     "imgFile": "イロハ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A4E383ADE3838FEFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "イロハ（水着）_icon.png",
     "reading": "いろは（水着）",
     "wikiLink": "イロハ（水着）"
@@ -320,7 +320,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ウイ",
     "imgFile": "ウイ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A6E382A45F69636F6E2E706E67.png",
     "alt": "ウイ_icon.png",
     "reading": "うい",
     "wikiLink": "ウイ"
@@ -328,7 +328,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ウイ（水着）",
     "imgFile": "ウイ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A6E382A4EFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "ウイ（水着）_icon.png",
     "reading": "うい（水着）",
     "wikiLink": "ウイ（水着）"
@@ -336,7 +336,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ウタハ",
     "imgFile": "ウタハ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A6E382BFE3838F5F69636F6E2E706E67.png",
     "alt": "ウタハ_icon.png",
     "reading": "うたは",
     "wikiLink": "ウタハ"
@@ -344,7 +344,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ウタハ（応援団）",
     "imgFile": "ウタハ（応援団）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A6E382BFE3838FEFBC88E5BF9CE68FB4E59BA3EFBC895F69636F6E2E706E67.png",
     "alt": "ウタハ（応援団）_icon.png",
     "reading": "うたは（応援団）",
     "wikiLink": "ウタハ（応援団）"
@@ -352,7 +352,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ウミカ",
     "imgFile": "ウミカ_icon2.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A6E3839FE382AB5F69636F6E322E706E67.png",
     "alt": "ウミカ_icon2.png",
     "reading": "うみか",
     "wikiLink": "ウミカ"
@@ -360,7 +360,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "エイミ",
     "imgFile": "エイミ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A8E382A4E3839F5F69636F6E2E706E67.png",
     "alt": "エイミ_icon.png",
     "reading": "えいみ",
     "wikiLink": "エイミ"
@@ -368,7 +368,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "エイミ（水着）",
     "imgFile": "エイミ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A8E382A4E3839FEFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "エイミ（水着）_icon.png",
     "reading": "えいみ（水着）",
     "wikiLink": "エイミ（水着）"
@@ -376,7 +376,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "エイミ（臨戦）",
     "imgFile": "エイミ（臨戦）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A8E382A4E3839FEFBC88E887A8E688A6EFBC895F69636F6E2E706E67.png",
     "alt": "エイミ（臨戦）_icon.png",
     "reading": "えいみ（臨戦）",
     "wikiLink": "エイミ（臨戦）"
@@ -384,7 +384,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "エリ",
     "imgFile": "エリ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A8E383AA5F69636F6E2E706E67.png",
     "alt": "エリ_icon.png",
     "reading": "えり",
     "wikiLink": "エリ"
@@ -392,7 +392,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "エリカ",
     "imgFile": "エリカ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A8E383AAE382AB5F69636F6E2E706E67.png",
     "alt": "エリカ_icon.png",
     "reading": "えりか",
     "wikiLink": "エリカ"
@@ -400,7 +400,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "エリナ",
     "imgFile": "エリナ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382A8E383AAE3838A5F69636F6E2E706E67.png",
     "alt": "エリナ_icon.png",
     "reading": "えりな",
     "wikiLink": "エリナ"
@@ -408,7 +408,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "オトギ",
     "imgFile": "オトギ_icon2.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382AAE38388E382AE5F69636F6E322E706E67.png",
     "alt": "オトギ_icon2.png",
     "reading": "おとぎ",
     "wikiLink": "オトギ"
@@ -416,7 +416,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "カエデ",
     "imgFile": "カエデ_仮icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382ABE382A8E383875FE4BBAE69636F6E2E706E67.png",
     "alt": "カエデ_仮icon.png",
     "reading": "かえで",
     "wikiLink": "カエデ"
@@ -424,7 +424,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "カスミ",
     "imgFile": "カスミ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382ABE382B9E3839F5F69636F6E2E706E67.png",
     "alt": "カスミ_icon.png",
     "reading": "かすみ",
     "wikiLink": "カスミ"
@@ -432,7 +432,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "カスミ（水着）",
     "imgFile": "カスミ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382ABE382B9E3839FEFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "カスミ（水着）_icon.png",
     "reading": "かすみ（水着）",
     "wikiLink": "カスミ（水着）"
@@ -440,7 +440,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "カズサ",
     "imgFile": "カズサ_icon2.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382ABE382BAE382B55F69636F6E322E706E67.png",
     "alt": "カズサ_icon2.png",
     "reading": "かずさ",
     "wikiLink": "カズサ"
@@ -448,7 +448,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "カズサ（バンド）",
     "imgFile": "カズサ（バンド）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382ABE382BAE382B5EFBC88E38390E383B3E38389EFBC895F69636F6E2E706E67.png",
     "alt": "カズサ（バンド）_icon.png",
     "reading": "かずさ（ばんど）",
     "wikiLink": "カズサ（バンド）"
@@ -456,7 +456,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "カノエ",
     "imgFile": "カノエ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382ABE3838EE382A85F69636F6E2E706E67.png",
     "alt": "カノエ_icon.png",
     "reading": "かのえ",
     "wikiLink": "カノエ"
@@ -464,7 +464,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "カホ",
     "imgFile": "カホ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382ABE3839B5F69636F6E2E706E67.png",
     "alt": "カホ_icon.png",
     "reading": "かほ",
     "wikiLink": "カホ"
@@ -472,7 +472,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "カヨコ",
     "imgFile": "カヨコ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382ABE383A8E382B35F69636F6E2E706E67.png",
     "alt": "カヨコ_icon.png",
     "reading": "かよこ",
     "wikiLink": "カヨコ"
@@ -480,7 +480,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "カヨコ（ドレス）",
     "imgFile": "カヨコ（ドレス）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382ABE383A8E382B3EFBC88E38389E383ACE382B9EFBC895F69636F6E2E706E67.png",
     "alt": "カヨコ（ドレス）_icon.png",
     "reading": "かよこ（どれす）",
     "wikiLink": "カヨコ（ドレス）"
@@ -488,7 +488,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "カヨコ（正月）",
     "imgFile": "カヨコ（正月）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382ABE383A8E382B3EFBC88E6ADA3E69C88EFBC895F69636F6E2E706E67.png",
     "alt": "カヨコ（正月）_icon.png",
     "reading": "かよこ（正月）",
     "wikiLink": "カヨコ（正月）"
@@ -496,7 +496,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "カリン",
     "imgFile": "カリン_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382ABE383AAE383B35F69636F6E2E706E67.png",
     "alt": "カリン_icon.png",
     "reading": "かりん",
     "wikiLink": "カリン"
@@ -504,7 +504,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "カリン（バニーガール）",
     "imgFile": "カリン（バニーガール）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382ABE383AAE383B3EFBC88E38390E3838BE383BCE382ACE383BCE383ABEFBC895F69636F6E2E706E67.png",
     "alt": "カリン（バニーガール）_icon.png",
     "reading": "かりん（ばにーがーる）",
     "wikiLink": "カリン（バニーガール）"
@@ -512,7 +512,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "カリン（制服）",
     "imgFile": "カリン（制服）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382ABE383AAE383B3EFBC88E588B6E69C8DEFBC895F69636F6E2E706E67.png",
     "alt": "カリン（制服）_icon.png",
     "reading": "かりん（制服）",
     "wikiLink": "カリン（制服）"
@@ -520,7 +520,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "カンナ",
     "imgFile": "カンナ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382ABE383B3E3838A5F69636F6E2E706E67.png",
     "alt": "カンナ_icon.png",
     "reading": "かんな",
     "wikiLink": "カンナ"
@@ -528,7 +528,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "カンナ（水着）",
     "imgFile": "カンナ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382ABE383B3E3838AEFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "カンナ（水着）_icon.png",
     "reading": "かんな（水着）",
     "wikiLink": "カンナ（水着）"
@@ -536,7 +536,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "キキョウ",
     "imgFile": "キキョウ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382ADE382ADE383A7E382A65F69636F6E2E706E67.png",
     "alt": "キキョウ_icon.png",
     "reading": "ききょう",
     "wikiLink": "キキョウ"
@@ -544,7 +544,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "キキョウ（水着）",
     "imgFile": "キキョウ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382ADE382ADE383A7E382A6EFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "キキョウ（水着）_icon.png",
     "reading": "ききょう（水着）",
     "wikiLink": "キキョウ（水着）"
@@ -552,7 +552,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "キサキ",
     "imgFile": "キサキ_icon_v2.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382ADE382B5E382AD5F69636F6E5F76322E706E67.png",
     "alt": "キサキ_icon_v2.png",
     "reading": "きさき",
     "wikiLink": "キサキ"
@@ -560,7 +560,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "キサキ（水着）",
     "imgFile": "キサキ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382ADE382B5E382ADEFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "キサキ（水着）_icon.png",
     "reading": "きさき（水着）",
     "wikiLink": "キサキ（水着）"
@@ -568,7 +568,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "キララ",
     "imgFile": "キララ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382ADE383A9E383A95F69636F6E2E706E67.png",
     "alt": "キララ_icon.png",
     "reading": "きらら",
     "wikiLink": "キララ"
@@ -576,7 +576,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "キリノ",
     "imgFile": "キリノ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382ADE383AAE3838E5F69636F6E2E706E67.png",
     "alt": "キリノ_icon.png",
     "reading": "きりの",
     "wikiLink": "キリノ"
@@ -584,7 +584,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "キリノ（水着）",
     "imgFile": "キリノ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382ADE383AAE3838EEFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "キリノ（水着）_icon.png",
     "reading": "きりの（水着）",
     "wikiLink": "キリノ（水着）"
@@ -592,7 +592,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "クルミ",
     "imgFile": "クルミ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382AFE383ABE3839F5F69636F6E2E706E67.png",
     "alt": "クルミ_icon.png",
     "reading": "くるみ",
     "wikiLink": "クルミ"
@@ -600,7 +600,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ケイ",
     "imgFile": "ケイ_icon2.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B1E382A45F69636F6E322E706E67.png",
     "alt": "ケイ_icon2.png",
     "reading": "けい",
     "wikiLink": "ケイ"
@@ -608,7 +608,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ココナ",
     "imgFile": "ココナ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B3E382B3E3838A5F69636F6E2E706E67.png",
     "alt": "ココナ_icon.png",
     "reading": "ここな",
     "wikiLink": "ココナ"
@@ -616,7 +616,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ココロ",
     "imgFile": "ココロ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B3E382B3E383AD5F69636F6E2E706E67.png",
     "alt": "ココロ_icon.png",
     "reading": "こころ",
     "wikiLink": "ココロ"
@@ -624,7 +624,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "コタマ",
     "imgFile": "コタマ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B3E382BFE3839E5F69636F6E2E706E67.png",
     "alt": "コタマ_icon.png",
     "reading": "こたま",
     "wikiLink": "コタマ"
@@ -632,7 +632,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "コタマ（キャンプ）",
     "imgFile": "コタマ（キャンプ）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B3E382BFE3839EEFBC88E382ADE383A3E383B3E38397EFBC895F69636F6E2E706E67.png",
     "alt": "コタマ（キャンプ）_icon.png",
     "reading": "こたま（きゃんぷ）",
     "wikiLink": "コタマ（キャンプ）"
@@ -640,7 +640,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "コトネ",
     "imgFile": "コトネ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B3E38388E3838D5F69636F6E2E706E67.png",
     "alt": "コトネ_icon.png",
     "reading": "ことね",
     "wikiLink": "コトネ"
@@ -648,7 +648,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "コトリ",
     "imgFile": "コトリ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B3E38388E383AA5F69636F6E2E706E67.png",
     "alt": "コトリ_icon.png",
     "reading": "ことり",
     "wikiLink": "コトリ"
@@ -656,7 +656,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "コトリ（応援団）",
     "imgFile": "コトリ（応援団）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B3E38388E383AAEFBC88E5BF9CE68FB4E59BA3EFBC895F69636F6E2E706E67.png",
     "alt": "コトリ（応援団）_icon.png",
     "reading": "ことり（応援団）",
     "wikiLink": "コトリ（応援団）"
@@ -664,7 +664,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "コノカ",
     "imgFile": "コノカ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B3E3838EE382AB5F69636F6E2E706E67.png",
     "alt": "コノカ_icon.png",
     "reading": "このか",
     "wikiLink": "コノカ"
@@ -672,7 +672,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "コハル",
     "imgFile": "コハル_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B3E3838FE383AB5F69636F6E2E706E67.png",
     "alt": "コハル_icon.png",
     "reading": "こはる",
     "wikiLink": "コハル"
@@ -680,7 +680,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "コハル（水着）",
     "imgFile": "コハル（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B3E3838FE383ABEFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "コハル（水着）_icon.png",
     "reading": "こはる（水着）",
     "wikiLink": "コハル（水着）"
@@ -688,7 +688,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "コユキ",
     "imgFile": "コユキ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B3E383A6E382AD5F69636F6E2E706E67.png",
     "alt": "コユキ_icon.png",
     "reading": "こゆき",
     "wikiLink": "コユキ"
@@ -696,7 +696,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "コユキ（パジャマ）",
     "imgFile": "コユキ（パジャマ）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B3E383A6E382ADEFBC88E38391E382B8E383A3E3839EEFBC895F69636F6E2E706E67.png",
     "alt": "コユキ（パジャマ）_icon.png",
     "reading": "こゆき（ぱじゃま）",
     "wikiLink": "コユキ（パジャマ）"
@@ -704,7 +704,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "サオリ",
     "imgFile": "サオリ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B5E382AAE383AA5F69636F6E2E706E67.png",
     "alt": "サオリ_icon.png",
     "reading": "さおり",
     "wikiLink": "サオリ"
@@ -712,7 +712,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "サオリ（ドレス）",
     "imgFile": "サオリ（ドレス）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B5E382AAE383AAEFBC88E38389E383ACE382B9EFBC895F69636F6E2E706E67.png",
     "alt": "サオリ（ドレス）_icon.png",
     "reading": "さおり（どれす）",
     "wikiLink": "サオリ（ドレス）"
@@ -720,7 +720,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "サオリ（水着）",
     "imgFile": "サオリ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B5E382AAE383AAEFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "サオリ（水着）_icon.png",
     "reading": "さおり（水着）",
     "wikiLink": "サオリ（水着）"
@@ -728,7 +728,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "サキ",
     "imgFile": "サキ_icon2.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B5E382AD5F69636F6E322E706E67.png",
     "alt": "サキ_icon2.png",
     "reading": "さき",
     "wikiLink": "サキ"
@@ -736,7 +736,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "サキ（水着）",
     "imgFile": "サキ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B5E382ADEFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "サキ（水着）_icon.png",
     "reading": "さき（水着）",
     "wikiLink": "サキ（水着）"
@@ -744,7 +744,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "サクラコ",
     "imgFile": "サクラコ_icon2.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B5E382AFE383A9E382B35F69636F6E322E706E67.png",
     "alt": "サクラコ_icon2.png",
     "reading": "さくらこ",
     "wikiLink": "サクラコ"
@@ -752,7 +752,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "サクラコ（アイドル）",
     "imgFile": "サクラコ（アイドル）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B5E382AFE383A9E382B3EFBC88E382A2E382A4E38389E383ABEFBC895F69636F6E2E706E67.png",
     "alt": "サクラコ（アイドル）_icon.png",
     "reading": "さくらこ（あいどる）",
     "wikiLink": "サクラコ（アイドル）"
@@ -760,7 +760,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "サツキ",
     "imgFile": "サツキ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B5E38384E382AD5F69636F6E2E706E67.png",
     "alt": "サツキ_icon.png",
     "reading": "さつき",
     "wikiLink": "サツキ"
@@ -768,7 +768,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "サツキ（水着）",
     "imgFile": "サツキ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B5E38384E382ADEFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "サツキ（水着）_icon.png",
     "reading": "さつき（水着）",
     "wikiLink": "サツキ（水着）"
@@ -776,7 +776,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "佐天涙子",
     "imgFile": "佐天涙子_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E4BD90E5A4A9E6B699E5AD905F69636F6E2E706E67.png",
     "alt": "佐天涙子_icon.png",
     "reading": "さてんるいこ",
     "wikiLink": "佐天涙子"
@@ -784,7 +784,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "サヤ",
     "imgFile": "サヤ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B5E383A45F69636F6E2E706E67.png",
     "alt": "サヤ_icon.png",
     "reading": "さや",
     "wikiLink": "サヤ"
@@ -792,7 +792,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "サヤ（私服）",
     "imgFile": "サヤ（私服）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B5E383A4EFBC88E7A781E69C8DEFBC895F69636F6E2E706E67.png",
     "alt": "サヤ（私服）_icon.png",
     "reading": "さや（私服）",
     "wikiLink": "サヤ（私服）"
@@ -800,7 +800,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "シグレ",
     "imgFile": "シグレ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B7E382B0E383AC5F69636F6E2E706E67.png",
     "alt": "シグレ_icon.png",
     "reading": "しぐれ",
     "wikiLink": "シグレ"
@@ -808,7 +808,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "シグレ（温泉）",
     "imgFile": "シグレ（温泉）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B7E382B0E383ACEFBC88E6B8A9E6B389EFBC895F69636F6E2E706E67.png",
     "alt": "シグレ（温泉）_icon.png",
     "reading": "しぐれ（温泉）",
     "wikiLink": "シグレ（温泉）"
@@ -816,7 +816,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "シズコ",
     "imgFile": "シズコ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B7E382BAE382B35F69636F6E2E706E67.png",
     "alt": "シズコ_icon.png",
     "reading": "しずこ",
     "wikiLink": "シズコ"
@@ -824,7 +824,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "シズコ（水着）",
     "imgFile": "シズコ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B7E382BAE382B3EFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "シズコ（水着）_icon.png",
     "reading": "しずこ（水着）",
     "wikiLink": "シズコ（水着）"
@@ -832,7 +832,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "シミコ",
     "imgFile": "シミコ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B7E3839FE382B35F69636F6E2E706E67.png",
     "alt": "シミコ_icon.png",
     "reading": "しみこ",
     "wikiLink": "シミコ"
@@ -840,7 +840,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "シュエリン（水着）",
     "imgFile": "シュエリン（水着）_icon.png",
-    "iconUrl": "https://bluearchive.wikiru.jp/image/%E3%82%B7%E3%83%A5%E3%82%A8%E3%83%AA%E3%83%B3%EF%BC%88%E6%B0%B4%E7%9D%80%EF%BC%89_icon.png",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B7E383A5E382A8E383AAE383B3EFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67",
     "alt": "シュエリン（水着）_icon.png",
     "reading": "しゅえりんみずぎ",
     "wikiLink": "シュン（水着）"
@@ -848,7 +848,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "シュン",
     "imgFile": "シュン_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B7E383A5E383B35F69636F6E2E706E67.png",
     "alt": "シュン_icon.png",
     "reading": "しゅん",
     "wikiLink": "シュン"
@@ -856,7 +856,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "シュン（幼女）",
     "imgFile": "シュン（幼女）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B7E383A5E383B3EFBC88E5B9BCE5A5B3EFBC895F69636F6E2E706E67.png",
     "alt": "シュン（幼女）_icon.png",
     "reading": "しゅん（幼女）",
     "wikiLink": "シュン（幼女）"
@@ -864,7 +864,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "シュン（水着）",
     "imgFile": "シュン（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B7E383A5E383B3EFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "シュン（水着）_icon.png",
     "reading": "しゅん（水着）",
     "wikiLink": "シュン（水着）"
@@ -872,7 +872,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "食蜂操祈",
     "imgFile": "食蜂操祈_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E9A39FE89C82E6938DE7A5885F69636F6E2E706E67.png",
     "alt": "食蜂操祈_icon.png",
     "reading": "しょくほうみさき",
     "wikiLink": "食蜂操祈"
@@ -880,7 +880,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "シロコ",
     "imgFile": "シロコ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B7E383ADE382B35F69636F6E2E706E67.png",
     "alt": "シロコ_icon.png",
     "reading": "しろこ",
     "wikiLink": "シロコ"
@@ -888,7 +888,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "シロコ（ライディング）",
     "imgFile": "シロコ（ライディング）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B7E383ADE382B3EFBC88E383A9E382A4E38387E382A3E383B3E382B0EFBC895F69636F6E2E706E67.png",
     "alt": "シロコ（ライディング）_icon.png",
     "reading": "しろこ（らいでぃんぐ）",
     "wikiLink": "シロコ（ライディング）"
@@ -896,7 +896,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "シロコ（水着）",
     "imgFile": "シロコ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B7E383ADE382B3EFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "シロコ（水着）_icon.png",
     "reading": "しろこ（水着）",
     "wikiLink": "シロコ（水着）"
@@ -904,7 +904,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "シロコ＊テラー",
     "imgFile": "シロコ＊テラー_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B7E383ADE382B3EFBC8AE38386E383A9E383BC5F69636F6E2E706E67.png",
     "alt": "シロコ＊テラー_icon.png",
     "reading": "しろこ＊てらー",
     "wikiLink": "シロコ＊テラー"
@@ -912,7 +912,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ジュリ",
     "imgFile": "ジュリ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B8E383A5E383AA5F69636F6E2E706E67.png",
     "alt": "ジュリ_icon.png",
     "reading": "じゅり",
     "wikiLink": "ジュリ"
@@ -920,7 +920,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ジュリ（アルバイト）",
     "imgFile": "ジュリ（アルバイト）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B8E383A5E383AAEFBC88E382A2E383ABE38390E382A4E38388EFBC895F69636F6E2E706E67.png",
     "alt": "ジュリ（アルバイト）_icon.png",
     "reading": "じゅり（あるばいと）",
     "wikiLink": "ジュリ（アルバイト）"
@@ -928,7 +928,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ジュンコ",
     "imgFile": "ジュンコ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B8E383A5E383B3E382B35F69636F6E2E706E67.png",
     "alt": "ジュンコ_icon.png",
     "reading": "じゅんこ",
     "wikiLink": "ジュンコ"
@@ -936,7 +936,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ジュンコ（正月）",
     "imgFile": "ジュンコ（正月）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B8E383A5E383B3E382B3EFBC88E6ADA3E69C88EFBC895F69636F6E2E706E67.png",
     "alt": "ジュンコ（正月）_icon.png",
     "reading": "じゅんこ（正月）",
     "wikiLink": "ジュンコ（正月）"
@@ -944,7 +944,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "スズミ",
     "imgFile": "スズミ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B9E382BAE3839F5F69636F6E2E706E67.png",
     "alt": "スズミ_icon.png",
     "reading": "すずみ",
     "wikiLink": "スズミ"
@@ -952,7 +952,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "スズミ（マジカル）",
     "imgFile": "スズミ（マジカル）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B9E382BAE3839FEFBC88E3839EE382B8E382ABE383ABEFBC895F69636F6E2E706E67.png",
     "alt": "スズミ（マジカル）_icon.png",
     "reading": "すずみ（まじかる）",
     "wikiLink": "スズミ（マジカル）"
@@ -960,7 +960,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "スバル",
     "imgFile": "スバル_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B9E38390E383AB5F69636F6E2E706E67.png",
     "alt": "スバル_icon.png",
     "reading": "すばる",
     "wikiLink": "スバル"
@@ -968,7 +968,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "スミレ",
     "imgFile": "スミレ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B9E3839FE383AC5F69636F6E2E706E67.png",
     "alt": "スミレ_icon.png",
     "reading": "すみれ",
     "wikiLink": "スミレ"
@@ -976,7 +976,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "スミレ（アルバイト）",
     "imgFile": "スミレ（アルバイト）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382B9E3839FE383ACEFBC88E382A2E383ABE38390E382A4E38388EFBC895F69636F6E2E706E67.png",
     "alt": "スミレ（アルバイト）_icon.png",
     "reading": "すみれ（あるばいと）",
     "wikiLink": "スミレ（アルバイト）"
@@ -984,7 +984,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "セイア",
     "imgFile": "セイア_icon_立ち絵準拠.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382BBE382A4E382A25F69636F6E5FE7AB8BE381A1E7B5B5E6BA96E68BA02E706E67.png",
     "alt": "セイア_icon_立ち絵準拠.png",
     "reading": "せいあ",
     "wikiLink": "セイア"
@@ -992,7 +992,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "セイア（水着）",
     "imgFile": "セイア（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382BBE382A4E382A2EFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "セイア（水着）_icon.png",
     "reading": "せいあ（水着）",
     "wikiLink": "セイア（水着）"
@@ -1000,7 +1000,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "セナ",
     "imgFile": "セナ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382BBE3838A5F69636F6E2E706E67.png",
     "alt": "セナ_icon.png",
     "reading": "せな",
     "wikiLink": "セナ"
@@ -1008,7 +1008,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "セナ（私服）",
     "imgFile": "セナ（私服）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382BBE3838AEFBC88E7A781E69C8DEFBC895F69636F6E2E706E67.png",
     "alt": "セナ（私服）_icon.png",
     "reading": "せな（私服）",
     "wikiLink": "セナ（私服）"
@@ -1016,7 +1016,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "セリカ",
     "imgFile": "セリカ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382BBE383AAE382AB5F69636F6E2E706E67.png",
     "alt": "セリカ_icon.png",
     "reading": "せりか",
     "wikiLink": "セリカ"
@@ -1024,7 +1024,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "セリカ（正月）",
     "imgFile": "セリカ（正月）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382BBE383AAE382ABEFBC88E6ADA3E69C88EFBC895F69636F6E2E706E67.png",
     "alt": "セリカ（正月）_icon.png",
     "reading": "せりか（正月）",
     "wikiLink": "セリカ（正月）"
@@ -1032,7 +1032,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "セリカ（水着）",
     "imgFile": "セリカ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382BBE383AAE382ABEFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "セリカ（水着）_icon.png",
     "reading": "せりか（水着）",
     "wikiLink": "セリカ（水着）"
@@ -1040,7 +1040,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "セリナ",
     "imgFile": "セリナ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382BBE383AAE3838A5F69636F6E2E706E67.png",
     "alt": "セリナ_icon.png",
     "reading": "せりな",
     "wikiLink": "セリナ"
@@ -1048,7 +1048,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "セリナ（クリスマス）",
     "imgFile": "セリナ（クリスマス）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382BBE383AAE3838AEFBC88E382AFE383AAE382B9E3839EE382B9EFBC895F69636F6E2E706E67.png",
     "alt": "セリナ（クリスマス）_icon.png",
     "reading": "せりな（くりすます）",
     "wikiLink": "セリナ（クリスマス）"
@@ -1056,7 +1056,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "タカネ",
     "imgFile": "タカネ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E382BFE382ABE3838D5F69636F6E2E706E67.png",
     "alt": "タカネ_icon.png",
     "reading": "たかね",
     "wikiLink": "タカネ"
@@ -1064,7 +1064,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "チアキ",
     "imgFile": "チアキ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38381E382A2E382AD5F69636F6E2E706E67.png",
     "alt": "チアキ_icon.png",
     "reading": "ちあき",
     "wikiLink": "チアキ"
@@ -1072,7 +1072,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "チアキ（水着）",
     "imgFile": "チアキ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38381E382A2E382ADEFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "チアキ（水着）_icon.png",
     "reading": "ちあき（水着）",
     "wikiLink": "チアキ（水着）"
@@ -1080,7 +1080,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "チェリノ",
     "imgFile": "チェリノ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38381E382A7E383AAE3838E5F69636F6E2E706E67.png",
     "alt": "チェリノ_icon.png",
     "reading": "ちぇりの",
     "wikiLink": "チェリノ"
@@ -1088,7 +1088,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "チェリノ（温泉）",
     "imgFile": "チェリノ（温泉）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38381E382A7E383AAE3838EEFBC88E6B8A9E6B389EFBC895F69636F6E2E706E67.png",
     "alt": "チェリノ（温泉）_icon.png",
     "reading": "ちぇりの（温泉）",
     "wikiLink": "チェリノ（温泉）"
@@ -1096,7 +1096,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "チセ",
     "imgFile": "チセ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38381E382BB5F69636F6E2E706E67.png",
     "alt": "チセ_icon.png",
     "reading": "ちせ",
     "wikiLink": "チセ"
@@ -1104,7 +1104,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "チセ（水着）",
     "imgFile": "チセ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38381E382BBEFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "チセ（水着）_icon.png",
     "reading": "ちせ（水着）",
     "wikiLink": "チセ（水着）"
@@ -1112,7 +1112,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "チナツ",
     "imgFile": "チナツ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38381E3838AE383845F69636F6E2E706E67.png",
     "alt": "チナツ_icon.png",
     "reading": "ちなつ",
     "wikiLink": "チナツ"
@@ -1120,7 +1120,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "チナツ（温泉）",
     "imgFile": "チナツ（温泉）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38381E3838AE38384EFBC88E6B8A9E6B389EFBC895F69636F6E2E706E67.png",
     "alt": "チナツ（温泉）_icon.png",
     "reading": "ちなつ（温泉）",
     "wikiLink": "チナツ（温泉）"
@@ -1128,7 +1128,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "チヒロ",
     "imgFile": "チヒロ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38381E38392E383AD5F69636F6E2E706E67.png",
     "alt": "チヒロ_icon.png",
     "reading": "ちひろ",
     "wikiLink": "チヒロ"
@@ -1136,7 +1136,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ツクヨ",
     "imgFile": "ツクヨ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38384E382AFE383A85F69636F6E2E706E67.png",
     "alt": "ツクヨ_icon.png",
     "reading": "つくよ",
     "wikiLink": "ツクヨ"
@@ -1144,7 +1144,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ツクヨ（ドレス）",
     "imgFile": "ツクヨ（ドレス）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38384E382AFE383A8EFBC88E38389E383ACE382B9EFBC895F69636F6E2E706E67.png",
     "alt": "ツクヨ（ドレス）_icon.png",
     "reading": "つくよ（どれす）",
     "wikiLink": "ツクヨ（ドレス）"
@@ -1152,7 +1152,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ツバキ",
     "imgFile": "ツバキ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38384E38390E382AD5F69636F6E2E706E67.png",
     "alt": "ツバキ_icon.png",
     "reading": "つばき",
     "wikiLink": "ツバキ"
@@ -1160,7 +1160,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ツバキ（ガイド）",
     "imgFile": "ツバキ（ガイド）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38384E38390E382ADEFBC88E382ACE382A4E38389EFBC895F69636F6E2E706E67.png",
     "alt": "ツバキ（ガイド）_icon.png",
     "reading": "つばき（がいど）",
     "wikiLink": "ツバキ（ガイド）"
@@ -1168,7 +1168,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ツルギ",
     "imgFile": "ツルギ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38384E383ABE382AE5F69636F6E2E706E67.png",
     "alt": "ツルギ_icon.png",
     "reading": "つるぎ",
     "wikiLink": "ツルギ"
@@ -1176,7 +1176,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ツルギ（水着）",
     "imgFile": "ツルギ_水着_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38384E383ABE382AE5FE6B0B4E79D805F69636F6E2E706E67.png",
     "alt": "ツルギ_水着_icon.png",
     "reading": "つるぎ（水着）",
     "wikiLink": "ツルギ（水着）"
@@ -1184,7 +1184,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "トキ",
     "imgFile": "トキ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38388E382AD5F69636F6E2E706E67.png",
     "alt": "トキ_icon.png",
     "reading": "とき",
     "wikiLink": "トキ"
@@ -1192,7 +1192,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "トキ（バニーガール）",
     "imgFile": "トキ（バニーガール）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38388E382ADEFBC88E38390E3838BE383BCE382ACE383BCE383ABEFBC895F69636F6E2E706E67.png",
     "alt": "トキ（バニーガール）_icon.png",
     "reading": "とき（ばにーがーる）",
     "wikiLink": "トキ（バニーガール）"
@@ -1200,7 +1200,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "トキ（臨戦）",
     "imgFile": "トキ（臨戦）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38388E382ADEFBC88E887A8E688A6EFBC895F69636F6E2E706E67.png",
     "alt": "トキ（臨戦）_icon.png",
     "reading": "とき（臨戦）",
     "wikiLink": "トキ（臨戦）"
@@ -1208,7 +1208,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "トモエ",
     "imgFile": "トモエ_仮icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38388E383A2E382A85FE4BBAE69636F6E2E706E67.png",
     "alt": "トモエ_仮icon.png",
     "reading": "ともえ",
     "wikiLink": "トモエ"
@@ -1216,7 +1216,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "トモエ（チーパオ）",
     "imgFile": "トモエ（チーパオ）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38388E383A2E382A8EFBC88E38381E383BCE38391E382AAEFBC895F69636F6E2E706E67.png",
     "alt": "トモエ（チーパオ）_icon.png",
     "reading": "ともえ（ちーぱお）",
     "wikiLink": "トモエ（チーパオ）"
@@ -1224,7 +1224,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ナギサ",
     "imgFile": "ナギサ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3838AE382AEE382B55F69636F6E2E706E67.png",
     "alt": "ナギサ_icon.png",
     "reading": "なぎさ",
     "wikiLink": "ナギサ"
@@ -1232,7 +1232,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ナギサ（水着）",
     "imgFile": "ナギサ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3838AE382AEE382B5EFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "ナギサ（水着）_icon.png",
     "reading": "なぎさ（水着）",
     "wikiLink": "ナギサ（水着）"
@@ -1240,7 +1240,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ナグサ",
     "imgFile": "ナグサ_icon2.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3838AE382B0E382B55F69636F6E322E706E67.png",
     "alt": "ナグサ_icon2.png",
     "reading": "なぐさ",
     "wikiLink": "ナグサ"
@@ -1248,7 +1248,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ナグサ（水着）",
     "imgFile": "ナグサ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3838AE382B0E382B5EFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "ナグサ（水着）_icon.png",
     "reading": "なぐさ（水着）",
     "wikiLink": "ナグサ（水着）"
@@ -1256,7 +1256,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ナツ",
     "imgFile": "ナツ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3838AE383845F69636F6E2E706E67.png",
     "alt": "ナツ_icon.png",
     "reading": "なつ",
     "wikiLink": "ナツ"
@@ -1264,7 +1264,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ナツ（バンド）",
     "imgFile": "ナツ（バンド）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3838AE38384EFBC88E38390E383B3E38389EFBC895F69636F6E2E706E67.png",
     "alt": "ナツ（バンド）_icon.png",
     "reading": "なつ（ばんど）",
     "wikiLink": "ナツ（バンド）"
@@ -1272,7 +1272,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ニコ",
     "imgFile": "ニコ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3838BE382B35F69636F6E2E706E67.png",
     "alt": "ニコ_icon.png",
     "reading": "にこ",
     "wikiLink": "ニコ"
@@ -1280,7 +1280,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ニヤ",
     "imgFile": "ニヤ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3838BE383A45F69636F6E2E706E67.png",
     "alt": "ニヤ_icon.png",
     "reading": "にや",
     "wikiLink": "ニヤ"
@@ -1288,7 +1288,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ネル",
     "imgFile": "ネル_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3838DE383AB5F69636F6E2E706E67.png",
     "alt": "ネル_icon.png",
     "reading": "ねる",
     "wikiLink": "ネル"
@@ -1296,7 +1296,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ネル（バニーガール）",
     "imgFile": "ネル（バニーガール）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3838DE383ABEFBC88E38390E3838BE383BCE382ACE383BCE383ABEFBC895F69636F6E2E706E67.png",
     "alt": "ネル（バニーガール）_icon.png",
     "reading": "ねる（ばにーがーる）",
     "wikiLink": "ネル（バニーガール）"
@@ -1304,7 +1304,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ネル（制服）",
     "imgFile": "ネル（制服）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3838DE383ABEFBC88E588B6E69C8DEFBC895F69636F6E2E706E67.png",
     "alt": "ネル（制服）_icon.png",
     "reading": "ねる（制服）",
     "wikiLink": "ネル（制服）"
@@ -1312,7 +1312,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ノア",
     "imgFile": "ノア_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3838EE382A25F69636F6E2E706E67.png",
     "alt": "ノア_icon.png",
     "reading": "のあ",
     "wikiLink": "ノア"
@@ -1320,7 +1320,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ノア（パジャマ）",
     "imgFile": "ノア（パジャマ）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3838EE382A2EFBC88E38391E382B8E383A3E3839EEFBC895F69636F6E2E706E67.png",
     "alt": "ノア（パジャマ）_icon.png",
     "reading": "のあ（ぱじゃま）",
     "wikiLink": "ノア（パジャマ）"
@@ -1328,7 +1328,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ノゾミ",
     "imgFile": "ノゾミ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3838EE382BEE3839F5F69636F6E2E706E67.png",
     "alt": "ノゾミ_icon.png",
     "reading": "のぞみ",
     "wikiLink": "ノゾミ"
@@ -1336,7 +1336,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ノドカ",
     "imgFile": "ノドカ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3838EE38389E382AB5F69636F6E2E706E67.png",
     "alt": "ノドカ_icon.png",
     "reading": "のどか",
     "wikiLink": "ノドカ"
@@ -1344,7 +1344,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ノドカ（温泉）",
     "imgFile": "ノドカ（温泉）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3838EE38389E382ABEFBC88E6B8A9E6B389EFBC895F69636F6E2E706E67.png",
     "alt": "ノドカ（温泉）_icon.png",
     "reading": "のどか（温泉）",
     "wikiLink": "ノドカ（温泉）"
@@ -1352,7 +1352,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ノノミ",
     "imgFile": "ノノミ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3838EE3838EE3839F5F69636F6E2E706E67.png",
     "alt": "ノノミ_icon.png",
     "reading": "ののみ",
     "wikiLink": "ノノミ"
@@ -1360,7 +1360,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ノノミ（水着）",
     "imgFile": "ノノミ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3838EE3838EE3839FEFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "ノノミ（水着）_icon.png",
     "reading": "ののみ（水着）",
     "wikiLink": "ノノミ（水着）"
@@ -1368,7 +1368,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ハスミ",
     "imgFile": "ハスミ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3838FE382B9E3839F5F69636F6E2E706E67.png",
     "alt": "ハスミ_icon.png",
     "reading": "はすみ",
     "wikiLink": "ハスミ"
@@ -1376,7 +1376,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ハスミ（体操服）",
     "imgFile": "ハスミ（体操服）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3838FE382B9E3839FEFBC88E4BD93E6938DE69C8DEFBC895F69636F6E2E706E67.png",
     "alt": "ハスミ（体操服）_icon.png",
     "reading": "はすみ（体操服）",
     "wikiLink": "ハスミ（体操服）"
@@ -1384,7 +1384,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ハスミ（水着）",
     "imgFile": "ハスミ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3838FE382B9E3839FEFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "ハスミ（水着）_icon.png",
     "reading": "はすみ（水着）",
     "wikiLink": "ハスミ（水着）"
@@ -1392,7 +1392,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "初音ミク",
     "imgFile": "初音ミク_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E5889DE99FB3E3839FE382AF5F69636F6E2E706E67.png",
     "alt": "初音ミク_icon.png",
     "reading": "はつねみく",
     "wikiLink": "初音ミク"
@@ -1400,7 +1400,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ハナエ",
     "imgFile": "ハナエ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3838FE3838AE382A85F69636F6E2E706E67.png",
     "alt": "ハナエ_icon.png",
     "reading": "はなえ",
     "wikiLink": "ハナエ"
@@ -1408,7 +1408,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ハナエ（クリスマス）",
     "imgFile": "ハナエ（クリスマス）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3838FE3838AE382A8EFBC88E382AFE383AAE382B9E3839EE382B9EFBC895F69636F6E2E706E67.png",
     "alt": "ハナエ（クリスマス）_icon.png",
     "reading": "はなえ（くりすます）",
     "wikiLink": "ハナエ（クリスマス）"
@@ -1416,7 +1416,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ハナコ",
     "imgFile": "ハナコ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3838FE3838AE382B35F69636F6E2E706E67.png",
     "alt": "ハナコ_icon.png",
     "reading": "はなこ",
     "wikiLink": "ハナコ"
@@ -1424,7 +1424,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ハナコ（水着）",
     "imgFile": "ハナコ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3838FE3838AE382B3EFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "ハナコ（水着）_icon.png",
     "reading": "はなこ（水着）",
     "wikiLink": "ハナコ（水着）"
@@ -1432,7 +1432,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ハルカ",
     "imgFile": "ハルカ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3838FE383ABE382AB5F69636F6E2E706E67.png",
     "alt": "ハルカ_icon.png",
     "reading": "はるか",
     "wikiLink": "ハルカ"
@@ -1440,7 +1440,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ハルカ（ドレス）",
     "imgFile": "ハルカ（ドレス）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3838FE383ABE382ABEFBC88E38389E383ACE382B9EFBC895F69636F6E2E706E67.png",
     "alt": "ハルカ（ドレス）_icon.png",
     "reading": "はるか（どれす）",
     "wikiLink": "ハルカ（ドレス）"
@@ -1448,7 +1448,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ハルカ（正月）",
     "imgFile": "ハルカ（正月）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3838FE383ABE382ABEFBC88E6ADA3E69C88EFBC895F69636F6E2E706E67.png",
     "alt": "ハルカ（正月）_icon.png",
     "reading": "はるか（正月）",
     "wikiLink": "ハルカ（正月）"
@@ -1456,7 +1456,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ハルナ",
     "imgFile": "ハルナ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3838FE383ABE3838A5F69636F6E2E706E67.png",
     "alt": "ハルナ_icon.png",
     "reading": "はるな",
     "wikiLink": "ハルナ"
@@ -1464,7 +1464,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ハルナ（体操服）",
     "imgFile": "ハルナ（体操服）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3838FE383ABE3838AEFBC88E4BD93E6938DE69C8DEFBC895F69636F6E2E706E67.png",
     "alt": "ハルナ（体操服）_icon.png",
     "reading": "はるな（体操服）",
     "wikiLink": "ハルナ（体操服）"
@@ -1472,7 +1472,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ハルナ（正月）",
     "imgFile": "ハルナ（正月）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3838FE383ABE3838AEFBC88E6ADA3E69C88EFBC895F69636F6E2E706E67.png",
     "alt": "ハルナ（正月）_icon.png",
     "reading": "はるな（正月）",
     "wikiLink": "ハルナ（正月）"
@@ -1480,7 +1480,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ハレ",
     "imgFile": "ハレ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3838FE383AC5F69636F6E2E706E67.png",
     "alt": "ハレ_icon.png",
     "reading": "はれ",
     "wikiLink": "ハレ"
@@ -1488,7 +1488,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ハレ（キャンプ）",
     "imgFile": "ハレ（キャンプ）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3838FE383ACEFBC88E382ADE383A3E383B3E38397EFBC895F69636F6E2E706E67.png",
     "alt": "ハレ（キャンプ）_icon.png",
     "reading": "はれ（きゃんぷ）",
     "wikiLink": "ハレ（キャンプ）"
@@ -1496,7 +1496,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ヒカリ",
     "imgFile": "ヒカリ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38392E382ABE383AA5F69636F6E2E706E67.png",
     "alt": "ヒカリ_icon.png",
     "reading": "ひかり",
     "wikiLink": "ヒカリ"
@@ -1504,7 +1504,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ヒナ",
     "imgFile": "ヒナ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38392E3838A5F69636F6E2E706E67.png",
     "alt": "ヒナ_icon.png",
     "reading": "ひな",
     "wikiLink": "ヒナ"
@@ -1512,7 +1512,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ヒナタ",
     "imgFile": "ヒナタ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38392E3838AE382BF5F69636F6E2E706E67.png",
     "alt": "ヒナタ_icon.png",
     "reading": "ひなた",
     "wikiLink": "ヒナタ"
@@ -1520,7 +1520,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ヒナタ（水着）",
     "imgFile": "ヒナタ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38392E3838AE382BFEFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "ヒナタ（水着）_icon.png",
     "reading": "ひなた（水着）",
     "wikiLink": "ヒナタ（水着）"
@@ -1528,7 +1528,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ヒナ（ドレス）",
     "imgFile": "ヒナ（ドレス）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38392E3838AEFBC88E38389E383ACE382B9EFBC895F69636F6E2E706E67.png",
     "alt": "ヒナ（ドレス）_icon.png",
     "reading": "ひな（どれす）",
     "wikiLink": "ヒナ（ドレス）"
@@ -1536,7 +1536,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ヒナ（水着）",
     "imgFile": "ヒナ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38392E3838AEFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "ヒナ（水着）_icon.png",
     "reading": "ひな（水着）",
     "wikiLink": "ヒナ（水着）"
@@ -1544,7 +1544,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ヒビキ",
     "imgFile": "ヒビキ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38392E38393E382AD5F69636F6E2E706E67.png",
     "alt": "ヒビキ_icon.png",
     "reading": "ひびき",
     "wikiLink": "ヒビキ"
@@ -1552,7 +1552,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ヒビキ（応援団）",
     "imgFile": "ヒビキ（応援団）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38392E38393E382ADEFBC88E5BF9CE68FB4E59BA3EFBC895F69636F6E2E706E67.png",
     "alt": "ヒビキ（応援団）_icon.png",
     "reading": "ひびき（応援団）",
     "wikiLink": "ヒビキ（応援団）"
@@ -1560,7 +1560,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ヒフミ",
     "imgFile": "ヒフミ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38392E38395E3839F5F69636F6E2E706E67.png",
     "alt": "ヒフミ_icon.png",
     "reading": "ひふみ",
     "wikiLink": "ヒフミ"
@@ -1568,7 +1568,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ヒフミ（水着）",
     "imgFile": "ヒフミ_水着_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38392E38395E3839F5FE6B0B4E79D805F69636F6E2E706E67.png",
     "alt": "ヒフミ_水着_icon.png",
     "reading": "ひふみ（水着）",
     "wikiLink": "ヒフミ（水着）"
@@ -1576,7 +1576,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ヒマリ",
     "imgFile": "ヒマリ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38392E3839EE383AA5F69636F6E2E706E67.png",
     "alt": "ヒマリ_icon.png",
     "reading": "ひまり",
     "wikiLink": "ヒマリ"
@@ -1584,7 +1584,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ヒマリ（臨戦）",
     "imgFile": "ヒマリ（臨戦）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38392E3839EE383AAEFBC88E887A8E688A6EFBC895F69636F6E2E706E67.png",
     "alt": "ヒマリ（臨戦）_icon.png",
     "reading": "ひまり（臨戦）",
     "wikiLink": "ヒマリ（臨戦）"
@@ -1592,7 +1592,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ヒヨリ",
     "imgFile": "ヒヨリ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38392E383A8E383AA5F69636F6E2E706E67.png",
     "alt": "ヒヨリ_icon.png",
     "reading": "ひより",
     "wikiLink": "ヒヨリ"
@@ -1600,7 +1600,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ヒヨリ（水着）",
     "imgFile": "ヒヨリ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38392E383A8E383AAEFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "ヒヨリ（水着）_icon.png",
     "reading": "ひより（水着）",
     "wikiLink": "ヒヨリ（水着）"
@@ -1608,7 +1608,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "フィーナ",
     "imgFile": "フィーナ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38395E382A3E383BCE3838A5F69636F6E2E706E67.png",
     "alt": "フィーナ_icon.png",
     "reading": "ふぃーな",
     "wikiLink": "フィーナ"
@@ -1616,7 +1616,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "フィーナ（ガイド）",
     "imgFile": "フィーナ（ガイド）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38395E382A3E383BCE3838AEFBC88E382ACE382A4E38389EFBC895F69636F6E2E706E67.png",
     "alt": "フィーナ（ガイド）_icon.png",
     "reading": "ふぃーな（がいど）",
     "wikiLink": "フィーナ（ガイド）"
@@ -1624,7 +1624,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "フウカ",
     "imgFile": "フウカ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38395E382A6E382AB5F69636F6E2E706E67.png",
     "alt": "フウカ_icon.png",
     "reading": "ふうか",
     "wikiLink": "フウカ"
@@ -1632,7 +1632,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "フウカ（正月）",
     "imgFile": "フウカ（正月）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38395E382A6E382ABEFBC88E6ADA3E69C88EFBC895F69636F6E2E706E67.png",
     "alt": "フウカ（正月）_icon.png",
     "reading": "ふうか（正月）",
     "wikiLink": "フウカ（正月）"
@@ -1640,7 +1640,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "フブキ",
     "imgFile": "フブキ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38395E38396E382AD5F69636F6E2E706E67.png",
     "alt": "フブキ_icon.png",
     "reading": "ふぶき",
     "wikiLink": "フブキ"
@@ -1648,7 +1648,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "フブキ（水着）",
     "imgFile": "フブキ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38395E38396E382ADEFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "フブキ（水着）_icon.png",
     "reading": "ふぶき（水着）",
     "wikiLink": "フブキ（水着）"
@@ -1656,7 +1656,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "フユ",
     "imgFile": "フユ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E38395E383A65F69636F6E2E706E67.png",
     "alt": "フユ_icon.png",
     "reading": "ふゆ",
     "wikiLink": "フユ"
@@ -1664,7 +1664,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ホシノ",
     "imgFile": "ホシノ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839BE382B7E3838E5F69636F6E2E706E67.png",
     "alt": "ホシノ_icon.png",
     "reading": "ほしの",
     "wikiLink": "ホシノ"
@@ -1672,7 +1672,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ホシノ（水着）",
     "imgFile": "ホシノ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839BE382B7E3838EEFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "ホシノ（水着）_icon.png",
     "reading": "ほしの（水着）",
     "wikiLink": "ホシノ（水着）"
@@ -1680,7 +1680,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ホシノ（臨戦）",
     "imgFile": "ホシノ（臨戦）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839BE382B7E3838EEFBC88E887A8E688A6EFBC89E382B9E382BFE382A4E383AB315F69636F6E2E706E67.png",
     "alt": "ホシノ（臨戦）防御型",
     "reading": "ほしの（臨戦）",
     "wikiLink": "ホシノ（臨戦）"
@@ -1688,7 +1688,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "マキ",
     "imgFile": "マキ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839EE382AD5F69636F6E2E706E67.png",
     "alt": "マキ_icon.png",
     "reading": "まき",
     "wikiLink": "マキ"
@@ -1696,7 +1696,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "マキ（キャンプ）",
     "imgFile": "マキ（キャンプ）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839EE382ADEFBC88E382ADE383A3E383B3E38397EFBC895F69636F6E2E706E67.png",
     "alt": "マキ（キャンプ）_icon.png",
     "reading": "まき（きゃんぷ）",
     "wikiLink": "マキ（キャンプ）"
@@ -1704,7 +1704,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "マコト",
     "imgFile": "マコト_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839EE382B3E383885F69636F6E2E706E67.png",
     "alt": "マコト_icon.png",
     "reading": "まこと",
     "wikiLink": "マコト"
@@ -1712,7 +1712,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "マコト（水着）",
     "imgFile": "マコト（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839EE382B3E38388EFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "マコト（水着）_icon.png",
     "reading": "まこと（水着）",
     "wikiLink": "マコト（水着）"
@@ -1720,7 +1720,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "マシロ",
     "imgFile": "マシロ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839EE382B7E383AD5F69636F6E2E706E67.png",
     "alt": "マシロ_icon.png",
     "reading": "ましろ",
     "wikiLink": "マシロ"
@@ -1728,7 +1728,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "マシロ（水着）",
     "imgFile": "マシロ_水着_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839EE382B7E383AD5FE6B0B4E79D805F69636F6E2E706E67.png",
     "alt": "マシロ_水着_icon.png",
     "reading": "ましろ（水着）",
     "wikiLink": "マシロ（水着）"
@@ -1736,7 +1736,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "マリナ",
     "imgFile": "マリナ_仮icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839EE383AAE3838A5FE4BBAE69636F6E2E706E67.png",
     "alt": "マリナ_仮icon.png",
     "reading": "まりな",
     "wikiLink": "マリナ"
@@ -1744,7 +1744,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "マリナ（チーパオ）",
     "imgFile": "マリナ（チーパオ）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839EE383AAE3838AEFBC88E38381E383BCE38391E382AAEFBC895F69636F6E2E706E67.png",
     "alt": "マリナ（チーパオ）_icon.png",
     "reading": "まりな（ちーぱお）",
     "wikiLink": "マリナ（チーパオ）"
@@ -1752,7 +1752,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "マリー",
     "imgFile": "マリー_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839EE383AAE383BC5F69636F6E2E706E67.png",
     "alt": "マリー_icon.png",
     "reading": "まりー",
     "wikiLink": "マリー"
@@ -1760,7 +1760,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "マリー（アイドル）",
     "imgFile": "マリー（アイドル）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839EE383AAE383BCEFBC88E382A2E382A4E38389E383ABEFBC895F69636F6E2E706E67.png",
     "alt": "マリー（アイドル）_icon.png",
     "reading": "まりー（あいどる）",
     "wikiLink": "マリー（アイドル）"
@@ -1768,7 +1768,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "マリー（体操服）",
     "imgFile": "マリー（体操服）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839EE383AAE383BCEFBC88E4BD93E6938DE69C8DEFBC895F69636F6E2E706E67.png",
     "alt": "マリー（体操服）_icon.png",
     "reading": "まりー（体操服）",
     "wikiLink": "マリー（体操服）"
@@ -1776,7 +1776,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ミカ",
     "imgFile": "ミカ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839FE382AB5F69636F6E2E706E67.png",
     "alt": "ミカ_icon.png",
     "reading": "みか",
     "wikiLink": "ミカ"
@@ -1784,7 +1784,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ミカ（水着）",
     "imgFile": "ミカ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839FE382ABEFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "ミカ（水着）_icon.png",
     "reading": "みか（水着）",
     "wikiLink": "ミカ（水着）"
@@ -1792,7 +1792,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "御坂美琴",
     "imgFile": "御坂美琴_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E5BEA1E59D82E7BE8EE790B45F69636F6E2E706E67.png",
     "alt": "御坂美琴_icon.png",
     "reading": "みさかみこと",
     "wikiLink": "御坂美琴"
@@ -1800,7 +1800,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ミサキ",
     "imgFile": "ミサキ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839FE382B5E382AD5F69636F6E2E706E67.png",
     "alt": "ミサキ_icon.png",
     "reading": "みさき",
     "wikiLink": "ミサキ"
@@ -1808,7 +1808,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ミサキ（水着）",
     "imgFile": "ミサキ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839FE382B5E382ADEFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "ミサキ（水着）_icon.png",
     "reading": "みさき（水着）",
     "wikiLink": "ミサキ（水着）"
@@ -1816,7 +1816,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ミチル",
     "imgFile": "ミチル_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839FE38381E383AB5F69636F6E2E706E67.png",
     "alt": "ミチル_icon.png",
     "reading": "みちる",
     "wikiLink": "ミチル"
@@ -1824,7 +1824,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ミチル（ドレス）",
     "imgFile": "ミチル（ドレス）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839FE38381E383ABEFBC88E38389E383ACE382B9EFBC895F69636F6E2E706E67.png",
     "alt": "ミチル（ドレス）_icon.png",
     "reading": "みちる（どれす）",
     "wikiLink": "ミチル（ドレス）"
@@ -1832,7 +1832,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ミドリ",
     "imgFile": "ミドリ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839FE38389E383AA5F69636F6E2E706E67.png",
     "alt": "ミドリ_icon.png",
     "reading": "みどり",
     "wikiLink": "ミドリ"
@@ -1840,7 +1840,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ミドリ（メイド）",
     "imgFile": "ミドリ（メイド）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839FE38389E383AAEFBC88E383A1E382A4E38389EFBC895F69636F6E2E706E67.png",
     "alt": "ミドリ（メイド）_icon.png",
     "reading": "みどり（めいど）",
     "wikiLink": "ミドリ（メイド）"
@@ -1848,7 +1848,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ミナ",
     "imgFile": "ミナ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839FE3838A5F69636F6E2E706E67.png",
     "alt": "ミナ_icon.png",
     "reading": "みな",
     "wikiLink": "ミナ"
@@ -1856,7 +1856,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ミネ",
     "imgFile": "ミネ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839FE3838D5F69636F6E2E706E67.png",
     "alt": "ミネ_icon.png",
     "reading": "みね",
     "wikiLink": "ミネ"
@@ -1864,7 +1864,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ミネ（アイドル）",
     "imgFile": "ミネ（アイドル）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839FE3838DEFBC88E382A2E382A4E38389E383ABEFBC895F69636F6E2E706E67.png",
     "alt": "ミネ（アイドル）_icon.png",
     "reading": "みね（あいどる）",
     "wikiLink": "ミネ（アイドル）"
@@ -1872,7 +1872,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ミノリ",
     "imgFile": "ミノリ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839FE3838EE383AA5F69636F6E2E706E67.png",
     "alt": "ミノリ_icon.png",
     "reading": "みのり",
     "wikiLink": "ミノリ"
@@ -1880,7 +1880,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ミモリ",
     "imgFile": "ミモリ_仮icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839FE383A2E383AA5FE4BBAE69636F6E2E706E67.png",
     "alt": "ミモリ_仮icon.png",
     "reading": "みもり",
     "wikiLink": "ミモリ"
@@ -1888,7 +1888,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ミモリ（水着）",
     "imgFile": "ミモリ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839FE383A2E383AAEFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "ミモリ（水着）_icon.png",
     "reading": "みもり（水着）",
     "wikiLink": "ミモリ（水着）"
@@ -1896,7 +1896,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ミヤコ",
     "imgFile": "ミヤコ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839FE383A4E382B35F69636F6E2E706E67.png",
     "alt": "ミヤコ_icon.png",
     "reading": "みやこ",
     "wikiLink": "ミヤコ"
@@ -1904,7 +1904,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ミヤコ（水着）",
     "imgFile": "ミヤコ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839FE383A4E382B3EFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "ミヤコ（水着）_icon.png",
     "reading": "みやこ（水着）",
     "wikiLink": "ミヤコ（水着）"
@@ -1912,7 +1912,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ミユ",
     "imgFile": "ミユ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839FE383A65F69636F6E2E706E67.png",
     "alt": "ミユ_icon.png",
     "reading": "みゆ",
     "wikiLink": "ミユ"
@@ -1920,7 +1920,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ミユ（水着）",
     "imgFile": "ミユ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839FE383A6EFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "ミユ（水着）_icon.png",
     "reading": "みゆ（水着）",
     "wikiLink": "ミユ（水着）"
@@ -1928,7 +1928,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ミヨ",
     "imgFile": "ミヨ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E3839FE383A85F69636F6E2E706E67.png",
     "alt": "ミヨ_icon.png",
     "reading": "みよ",
     "wikiLink": "ミヨ"
@@ -1936,7 +1936,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ムツキ",
     "imgFile": "ムツキ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383A0E38384E382AD5F69636F6E2E706E67.png",
     "alt": "ムツキ_icon.png",
     "reading": "むつき",
     "wikiLink": "ムツキ"
@@ -1944,7 +1944,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ムツキ（ドレス）",
     "imgFile": "ムツキ（ドレス）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383A0E38384E382ADEFBC88E38389E383ACE382B9EFBC895F69636F6E2E706E67.png",
     "alt": "ムツキ（ドレス）_icon.png",
     "reading": "むつき（どれす）",
     "wikiLink": "ムツキ（ドレス）"
@@ -1952,7 +1952,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ムツキ（正月）",
     "imgFile": "ムツキ（正月）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383A0E38384E382ADEFBC88E6ADA3E69C88EFBC895F69636F6E2E706E67.png",
     "alt": "ムツキ（正月）_icon.png",
     "reading": "むつき（正月）",
     "wikiLink": "ムツキ（正月）"
@@ -1960,7 +1960,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "メグ",
     "imgFile": "メグ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383A1E382B05F69636F6E2E706E67.png",
     "alt": "メグ_icon.png",
     "reading": "めぐ",
     "wikiLink": "メグ"
@@ -1968,7 +1968,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "メル",
     "imgFile": "メル_icon2.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383A1E383AB5F69636F6E322E706E67.png",
     "alt": "メル_icon2.png",
     "reading": "める",
     "wikiLink": "メル"
@@ -1976,7 +1976,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "モエ",
     "imgFile": "モエ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383A2E382A85F69636F6E2E706E67.png",
     "alt": "モエ_icon.png",
     "reading": "もえ",
     "wikiLink": "モエ"
@@ -1984,7 +1984,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "モエ（水着）",
     "imgFile": "モエ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383A2E382A8EFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "モエ（水着）_icon.png",
     "reading": "もえ（水着）",
     "wikiLink": "モエ（水着）"
@@ -1992,7 +1992,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "モミジ",
     "imgFile": "モミジ_icon2.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383A2E3839FE382B85F69636F6E322E706E67.png",
     "alt": "モミジ_icon2.png",
     "reading": "もみじ",
     "wikiLink": "モミジ"
@@ -2000,7 +2000,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "モモイ",
     "imgFile": "モモイ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383A2E383A2E382A45F69636F6E2E706E67.png",
     "alt": "モモイ_icon.png",
     "reading": "ももい",
     "wikiLink": "モモイ"
@@ -2008,7 +2008,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "モモイ（メイド）",
     "imgFile": "モモイ（メイド）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383A2E383A2E382A4EFBC88E383A1E382A4E38389EFBC895F69636F6E2E706E67.png",
     "alt": "モモイ（メイド）_icon.png",
     "reading": "ももい（めいど）",
     "wikiLink": "モモイ（メイド）"
@@ -2016,7 +2016,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ヤクモ",
     "imgFile": "ヤクモ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383A4E382AFE383A25F69636F6E2E706E67.png",
     "alt": "ヤクモ_icon.png",
     "reading": "やくも",
     "wikiLink": "ヤクモ"
@@ -2024,7 +2024,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ユウカ",
     "imgFile": "ユウカ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383A6E382A6E382AB5F69636F6E2E706E67.png",
     "alt": "ユウカ_icon.png",
     "reading": "ゆうか",
     "wikiLink": "ユウカ"
@@ -2032,7 +2032,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ユウカ（パジャマ）",
     "imgFile": "ユウカ（パジャマ）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383A6E382A6E382ABEFBC88E38391E382B8E383A3E3839EEFBC895F69636F6E2E706E67.png",
     "alt": "ユウカ（パジャマ）_icon.png",
     "reading": "ゆうか（ぱじゃま）",
     "wikiLink": "ユウカ（パジャマ）"
@@ -2040,7 +2040,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ユウカ（体操服）",
     "imgFile": "ユウカ（体操服）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383A6E382A6E382ABEFBC88E4BD93E6938DE69C8DEFBC895F69636F6E2E706E67.png",
     "alt": "ユウカ（体操服）_icon.png",
     "reading": "ゆうか（体操服）",
     "wikiLink": "ユウカ（体操服）"
@@ -2048,7 +2048,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ユカリ",
     "imgFile": "ユカリ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383A6E382ABE383AA5F69636F6E2E706E67.png",
     "alt": "ユカリ_icon.png",
     "reading": "ゆかり",
     "wikiLink": "ユカリ"
@@ -2056,7 +2056,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ユカリ（水着）",
     "imgFile": "ユカリ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383A6E382ABE383AAEFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "ユカリ（水着）_icon.png",
     "reading": "ゆかり（水着）",
     "wikiLink": "ユカリ（水着）"
@@ -2064,7 +2064,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ユズ",
     "imgFile": "ユズ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383A6E382BA5F69636F6E2E706E67.png",
     "alt": "ユズ_icon.png",
     "reading": "ゆず",
     "wikiLink": "ユズ"
@@ -2072,7 +2072,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ユズ（メイド）",
     "imgFile": "ユズ（メイド）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383A6E382BAEFBC88E383A1E382A4E38389EFBC895F69636F6E2E706E67.png",
     "alt": "ユズ（メイド）_icon.png",
     "reading": "ゆず（めいど）",
     "wikiLink": "ユズ（メイド）"
@@ -2080,7 +2080,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ユズ（臨戦）",
     "imgFile": "ユズ（臨戦）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383A6E382BAEFBC88E887A8E688A6EFBC895F69636F6E2E706E67.png",
     "alt": "ユズ（臨戦）_icon.png",
     "reading": "ゆず（臨戦）",
     "wikiLink": "ユズ（臨戦）"
@@ -2088,7 +2088,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ヨシミ",
     "imgFile": "ヨシミ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383A8E382B7E3839F5F69636F6E2E706E67.png",
     "alt": "ヨシミ_icon.png",
     "reading": "よしみ",
     "wikiLink": "ヨシミ"
@@ -2096,7 +2096,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ヨシミ（バンド）",
     "imgFile": "ヨシミ（バンド）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383A8E382B7E3839FEFBC88E38390E383B3E38389EFBC895F69636F6E2E706E67.png",
     "alt": "ヨシミ（バンド）_icon.png",
     "reading": "よしみ（ばんど）",
     "wikiLink": "ヨシミ（バンド）"
@@ -2104,7 +2104,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ラブ",
     "imgFile": "ラブ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383A9E383965F69636F6E2E706E67.png",
     "alt": "ラブ_icon.png",
     "reading": "らぶ",
     "wikiLink": "ラブ"
@@ -2112,7 +2112,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "リオ",
     "imgFile": "リオ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383AAE382AA5F69636F6E2E706E67.png",
     "alt": "リオ_icon.png",
     "reading": "りお",
     "wikiLink": "リオ"
@@ -2120,7 +2120,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "リオ（臨戦）",
     "imgFile": "リオ（臨戦）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383AAE382AAEFBC88E887A8E688A6EFBC895F69636F6E2E706E67.png",
     "alt": "リオ（臨戦）_icon.png",
     "reading": "りお（臨戦）",
     "wikiLink": "リオ（臨戦）"
@@ -2128,7 +2128,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "リツ",
     "imgFile": "リツ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383AAE383845F69636F6E2E706E67.png",
     "alt": "リツ_icon.png",
     "reading": "りつ",
     "wikiLink": "リツ"
@@ -2136,7 +2136,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ルミ",
     "imgFile": "ルミ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383ABE3839F5F69636F6E2E706E67.png",
     "alt": "ルミ_icon.png",
     "reading": "るみ",
     "wikiLink": "ルミ"
@@ -2144,7 +2144,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "レイ",
     "imgFile": "レイ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383ACE382A45F69636F6E2E706E67.png",
     "alt": "レイ_icon.png",
     "reading": "れい",
     "wikiLink": "レイ"
@@ -2152,7 +2152,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "レイサ",
     "imgFile": "レイサ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383ACE382A4E382B55F69636F6E2E706E67.png",
     "alt": "レイサ_icon.png",
     "reading": "れいさ",
     "wikiLink": "レイサ"
@@ -2160,7 +2160,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "レイサ（マジカル）",
     "imgFile": "レイサ（マジカル）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383ACE382A4E382B5EFBC88E3839EE382B8E382ABE383ABEFBC895F69636F6E2E706E67.png",
     "alt": "レイサ（マジカル）_icon.png",
     "reading": "れいさ（まじかる）",
     "wikiLink": "レイサ（マジカル）"
@@ -2168,7 +2168,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "レイジョ",
     "imgFile": "レイジョ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383ACE382A4E382B8E383A75F69636F6E2E706E67.png",
     "alt": "レイジョ_icon.png",
     "reading": "れいじょ",
     "wikiLink": "レイジョ"
@@ -2176,7 +2176,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "レナ",
     "imgFile": "レナ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383ACE3838A5F69636F6E2E706E67.png",
     "alt": "レナ_icon.png",
     "reading": "れな",
     "wikiLink": "レナ"
@@ -2184,7 +2184,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "レンゲ",
     "imgFile": "レンゲ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383ACE383B3E382B25F69636F6E2E706E67.png",
     "alt": "レンゲ_icon.png",
     "reading": "れんげ",
     "wikiLink": "レンゲ"
@@ -2192,7 +2192,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "レンゲ（水着）",
     "imgFile": "レンゲ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383ACE383B3E382B2EFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "レンゲ（水着）_icon.png",
     "reading": "れんげ（水着）",
     "wikiLink": "レンゲ（水着）"
@@ -2200,7 +2200,7 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ワカモ",
     "imgFile": "ワカモ_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383AFE382ABE383A25F69636F6E2E706E67.png",
     "alt": "ワカモ_icon.png",
     "reading": "わかも",
     "wikiLink": "ワカモ"
@@ -2208,13 +2208,13 @@ window.DEFAULT_STUDENTS = [
   {
     "name": "ワカモ（水着）",
     "imgFile": "ワカモ（水着）_icon.png",
-    "iconUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "iconUrl": "https://bluearchive.wikiru.jp/attach2/696D67_E383AFE382ABE383A2EFBC88E6B0B4E79D80EFBC895F69636F6E2E706E67.png",
     "alt": "ワカモ（水着）_icon.png",
     "reading": "わかも（水着）",
     "wikiLink": "ワカモ（水着）"
   }
 ];
 window.STUDENTS_METADATA = {
-  lastUpdated: "2026-09-25 08:47:08 (JST)",
+  lastUpdated: "2026-09-25 12:32:52 (JST)",
   count: 276
 };
